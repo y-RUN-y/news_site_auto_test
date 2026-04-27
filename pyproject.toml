@@ -1,0 +1,58 @@
+[project]
+name = "tencent-news-web-test"
+version = "0.1.0"
+description = "腾讯新闻网页版自动化测试框架"
+authors = [
+    {name = "希望能学会",email = "2080554836@qq.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest (>=9.0.3,<10.0.0)",
+    "playwright (>=1.58.0,<2.0.0)",
+    "allure-pytest (>=2.15.3,<3.0.0)"
+]
+
+[dependency-groups]
+dev = [
+    "black (>=26.3.1,<27.0.0)",
+    "isort (>=8.0.1,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
+[tool.pytest.ini_options]
+minversion = "9.0.3"
+addopts = "-v -s --alluredir='./report/json' --clean-alluredir"
+testpaths = ["test"]
+python_files = ["test_*.py"]
+log_level = "INFO"
+log_format = "%(asctime)s\t%(levelname)s\t%(funcName)s\t%(lineno)d\t%(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+log_cli = true
+log_file='./test_log.log'
+log_file_mode='w'
+
+# 代码格式化配置
+[tool.code]
+black=false
+isort=false
+
+# playwright启动配置
+[tool.playwright]
+platform = ""   # 测试平台：chromium、firefox、webkit，默认chromium
+launch_options = { headless = false, timeout = 3000, slow_mo = 1000 }
+
+# allure配置
+[tool.allure]
+enable=false
+input='./report/json'
+output='./report/html'
+open_report=false
