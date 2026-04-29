@@ -1,8 +1,12 @@
 import tomllib
+from pathlib import Path
+
+# 项目根路径，统一在此定义
+project_root = Path(__file__).resolve().parent.parent
 
 
 def load_config():
-    with open("pyproject.toml", mode="rb") as f:
+    with open(project_root / "pyproject.toml", mode="rb") as f:
         data = tomllib.load(f)
     return data["tool"]
 
