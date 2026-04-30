@@ -7,19 +7,16 @@ class HomePage(BasePage):
     SEARCH_BTN = '//span[text()="搜索"]'
 
     # 顶部导航栏
-    NAV_ITEM = ".nav-link"  # 顶部分类按钮
-
+    NAV_ITEM = ".nav-item"  # 顶部分类按钮
+    NAV_LINK = ".nav-link"
     MORE_ITEM_DROPDOWN = ".rc-dropdown"
+    MORE_ITEM = ".more-item"
 
     # 文本定位（使用 get_by_text 显式定位）
     POP_UP_CLOSE_BTN = "知道了"
 
     def gohome(self):
         self.open_url("https://www.qq.com")
-
-    def get_nav_list(self):
-        """获取导航栏元素，返回 Locator 对象"""
-        return self.locate(self.NAV_LIST)
 
     def close_popup(self):
         """关闭弹窗"""

@@ -6,6 +6,7 @@ dependencies = [
   "pytest (>=9.0.3,<10.0.0)",
   "playwright (>=1.58.0,<2.0.0)",
   "allure-pytest (>=2.15.3,<3.0.0)",
+  "pytest-dependency (>=0.6.1,<0.7.0)",
 ]
 description = "腾讯新闻网页版自动化测试框架"
 license = "MIT"
@@ -34,14 +35,15 @@ log_date_format = "%Y-%m-%d %H:%M:%S"
 log_file = './test_log.log'
 log_file_mode = 'w'
 log_format = "%(asctime)s\t%(levelname)s\t%(funcName)s\t%(lineno)d\t%(message)s"
-log_level = "INFO"
+log_level = "DEBUG"
 minversion = "9.0.3"
 python_files = ["test_*.py"]
 testpaths = ["test_cases"]
-markers = [ "completed: 已完成", "inprogress: 正在实现"]
+markers = [ "completed: 已完成", "inprogress: 正在实现", "dependency: 测试用例依赖"]
 
 [tool]
 mode = 'build'  # run, build
+screenshot_on_failure = true  # 在测试用例失败时截图
 
 # 项目构建配置
 [tool.build]
@@ -51,7 +53,7 @@ clear_screenshots = false
 
 # playwright启动配置
 [tool.playwright]
-launch_options = {headless = true, timeout = 3000, slow_mo = 1000} 
+launch_options = {headless = false, timeout = 3000, slow_mo = 1000} 
 platform = "" # 测试平台：chromium、firefox、webkit，默认chromium
 
 # allure配置
