@@ -28,25 +28,10 @@ def context(browser: Browser):
         with browser.new_context() as context:
             yield context
 
-@pytest.fixture(scope="class")
-def context_logged_in(browser: Browser):
-    storage_state_path = project_root / 'auth.json'
-    if storage_state_path.exists():
-        with browser.new_context(storage_state=storage_state_path) as context:
-            yield context
-    else:
-        with browser.new_context() as context:
-            yield context
-
 @pytest.fixture(scope="function")
 def page(context: BrowserContext):
     with BasePage(context.new_page()) as page:
         yield page
-
-@pytest.fixture(scope="function")
-def page_logged_in(context_logged_in: BrowserContext):
-    with BasePage(context_logged_in.new_page()) as page_logged_in:
-        yield page_logged_in
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):

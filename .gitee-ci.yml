@@ -1,0 +1,109 @@
+name: tencent-news-web-test
+
+variables:
+  PIXI_VERSION: "0.23.0"
+  PYTHON_VERSION: "3.12"
+  ALLURE_VERSION: "2.15.0"
+  ARTIFACTS_DIR: "./report/html"
+  SCREENSHOTS_DIR: "./screenshots"
+
+stages:
+  - install
+  - lint
+  - test
+  - report
+  - deploy
+
+# 全局设置
+default:
+  image: python:${PYTHON_VERSION}-slim
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends curl wget git > /dev/null 2>&1
+    - wget -qO- https://pixi.sh/install.sh | sh
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .pixi/
+      - ~/.cache/pip/
+
+.install:
+  stage: install
+  script:
+    - pixi install
+    - pixi run playwright install chromium
+  artifacts:
+    paths:
+      - .pixi/
+    expire_in: 1 day
+
+lint:
+  stage: lint
+  needs:
+    - job: .install
+      optional: true
+  script:
+    - pixi run lint
+  allow_failure: false
+
+.test:
+  stage: test
+  needs:
+    - job: .install
+      optional: true
+  script:
+    - pixi run ci
+  artifacts:
+    when: always
+    paths:
+      - report/json/
+      - report/html/
+      - screenshots/
+      - test_log.log
+    expire_in: 7 days
+  allow_failure: false
+
+report:
+  stage: report
+  needs:
+    - job: .test
+      optional: true
+  script:
+    - |
+      if [ -d "report/json" ]; then
+        wget -q https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.zip -O /tmp/allure.zip
+        unzip -q /tmp/allure.zip -d /opt/
+        export PATH=/opt/allure-${ALLURE_VERSION}/bin:$PATH
+        allure generate report/json -o report/html --clean
+      fi
+  artifacts:
+    paths:
+      - report/html/
+    expire_in: 30 days
+  allow_failure: true
+
+pages:
+  stage: deploy
+  needs:
+    - job: report
+      optional: true
+  script:
+    - |
+      if [ -d "report/html" ]; then
+        mv report/html public/
+        echo "CI_NAME=${CI_NAME}" > public/info.json
+        echo "BUILD_URL=${CI_BUILD_URL}" >> public/info.json
+        echo "COMMIT_SHA=${CI_COMMIT_SHA}" >> public/info.json
+        echo "COMMIT_MESSAGE=${CI_COMMIT_MESSAGE}" >> public/info.json
+        echo "BUILD_TIME=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> public/info.json
+      fi
+  artifacts:
+    paths:
+      - public/
+    expire_in: 1 day
+  only:
+    - main
+    - master
+
+# 定时构建配置
+# 注意：定时构建需要在 Gitee 仓库设置中创建，配置 cron 表达式
+# 在 .gitee-ci.yml 中只需确保要运行的 job 定义正确即可

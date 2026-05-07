@@ -1,0 +1,72 @@
+[workspace]
+name = "tencent-news-web-test"
+version = "0.1.0"
+description = "腾讯新闻网页版自动化测试框架"
+authors = ["希望能学会 <2080554836@qq.com>"]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[dependencies]
+python = "3.12.*"
+
+[pypi-dependencies]
+pytest = ">=9.0.3,<10.0.0"
+playwright = ">=1.58.0,<2.0.0"
+allure-pytest = ">=2.15.3,<3.0.0"
+pytest-dependency = ">=0.6.1,<0.7.0"
+autoflake = ">=2.3.3,<3.0.0"
+black = ">=26.3.1,<27.0.0"
+isort = ">=8.0.1,<9.0.0"
+tomli = ">=2.0.0,<3.0.0"
+
+[tasks]
+install-playwright = "playwright install"
+lint = "python scripts/lint.py"
+run = "python scripts/run.py --mode run -m completed"
+test = "python scripts/run.py --mode build"
+ci = "python scripts/run.py --ci"
+clean = "python scripts/clean.py"
+
+[activation]
+scripts = []
+
+# playwright启动配置
+[tool.playwright]
+launch_options = {headless = true, timeout = 3000, slow_mo = 1000}
+platform = "" # 测试平台：chromium、firefox、webkit，默认chromium
+
+# autoflake配置
+[tool.autoflake]
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-unused-variables = true
+expand-star-imports = true
+exclude = [".git", "__pycache__", ".vscode", "report", "data", ".log", ".md"]
+
+# 项目构建配置
+[tool.build]
+black = false
+isort = false
+
+# allure配置
+[tool.allure]
+enable = false
+input = './report/json'
+open_report = true
+output = './report/html'
+
+# CI 配置
+[tool.ci]
+headless = true  # CI 环境强制使用无头模式
+timeout = 30000  # CI 环境增加超时时间
+parallel = true  # 是否并行执行测试
+workers = 4      # 并行 worker 数量
+screenshot_on_failure = true
+notify_on_failure = true
+
+# CI 环境变量
+[tool.ci.env]
+CI = "true"
+CI_PLATFORM = "gitee"

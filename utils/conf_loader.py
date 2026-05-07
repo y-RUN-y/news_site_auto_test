@@ -6,7 +6,7 @@ project_root = Path(__file__).resolve().parent.parent
 
 
 def load_config():
-    with open(project_root / "pyproject.toml", mode="rb") as f:
+    with open(project_root / "pixi.toml", mode="rb") as f:
         data = tomllib.load(f)
     return data["tool"]
 
