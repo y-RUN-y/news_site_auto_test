@@ -7,6 +7,7 @@ dependencies = [
   "playwright (>=1.58.0,<2.0.0)",
   "allure-pytest (>=2.15.3,<3.0.0)",
   "pytest-dependency (>=0.6.1,<0.7.0)",
+  "autoflake (>=2.3.3,<3.0.0)",
 ]
 description = "腾讯新闻网页版自动化测试框架"
 license = "MIT"
@@ -27,6 +28,16 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 
 [tool.poetry]
 package-mode = false
+
+[tool.autoflake]
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-unused-variables = true
+expand-star-imports = true
+exclude = [".git", "__pycache__", ".vscode", "report", "data", ".log", ".md"]
+
 
 [tool.pytest.ini_options]
 addopts = "-v -s --alluredir=./report/json --clean-alluredir"
@@ -49,7 +60,6 @@ screenshot_on_failure = true  # 在测试用例失败时截图
 [tool.build]
 black = false
 isort = false
-clear_screenshots = false
 
 # playwright启动配置
 [tool.playwright]

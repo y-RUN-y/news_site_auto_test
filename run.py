@@ -32,7 +32,10 @@ def main():
         help="指定要运行的测试文件或测试函数路径",
     )
     args = parser.parse_args()
-
+    # 清理截图
+    screenshot_dir = project_root / "screenshots"
+    if screenshot_dir.exists():
+        shutil.rmtree(screenshot_dir)
     # 构建 pytest 命令
     pytest_cmd = ["pytest"]
     if args.test_path:
@@ -59,10 +62,6 @@ def main():
         else:
             pytest_cmd.extend(["-m", "inprogress"])
             run_command(pytest_cmd)
-        if test_cfg["clear_screenshots"]:
-            screenshot_dir = project_root / "screenshots"
-            if screenshot_dir.exists():
-                shutil.rmtree(screenshot_dir)
     if allure_cfg["enable"]:
         output_dir = project_root / allure_cfg["output"].strip("'\"")
         if output_dir.exists():
