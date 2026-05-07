@@ -24,7 +24,6 @@ install-playwright = "playwright install"
 lint = "python scripts/lint.py"
 run = "python scripts/run.py --mode run -m completed"
 test = "python scripts/run.py --mode build"
-ci = "python scripts/run.py --ci"
 clean = "python scripts/clean.py"
 
 [activation]
@@ -56,17 +55,3 @@ enable = false
 input = './report/json'
 open_report = true
 output = './report/html'
-
-# CI 配置
-[tool.ci]
-headless = true  # CI 环境强制使用无头模式
-timeout = 30000  # CI 环境增加超时时间
-parallel = true  # 是否并行执行测试
-workers = 4      # 并行 worker 数量
-screenshot_on_failure = true
-notify_on_failure = true
-
-# CI 环境变量
-[tool.ci.env]
-CI = "true"
-CI_PLATFORM = "gitee"
