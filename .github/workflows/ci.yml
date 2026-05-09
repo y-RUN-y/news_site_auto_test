@@ -12,7 +12,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: astral-sh/setup-pixi@v4
 
@@ -42,25 +42,26 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout gh-pages
-        run: |
-          if ! git ls-remote --heads origin gh-pages | grep -q gh-pages; then
-            git checkout --orphan gh-pages
-            git rm -rf .
-          else
-            git fetch origin gh-pages
-            git checkout -b gh-pages origin/gh-pages
-          fi
-        shell: bash
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
 
       - uses: actions/download-artifact@v4
         with:
           name: allure-report
           path: .
 
+      - name: Prepare gh-pages
+        run: |
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git rm -rf .
+          cp -r report/html/* .
+          rm -rf report
+        shell: bash
+
       - name: Deploy
         run: |
-          cp -r report/html/* . || true
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
