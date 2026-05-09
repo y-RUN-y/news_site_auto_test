@@ -194,7 +194,7 @@ class TestNavBar:
     @allure.title("测试更多导航按钮弹出面板点击效果")
     @allure.description("验证点击更多菜单下拉项后能在新标签页正确打开对应链接")
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.inprogress
+    @pytest.mark.completed
     @pytest.mark.dependency(["visible"])
     def test_more_nav_item_click(self, context, page):
         main_page = MainPage(page)
