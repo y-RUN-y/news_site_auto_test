@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "腾讯新闻网页版自动化测试框架"
 authors = ["希望能学会 <2080554836@qq.com>"]
 channels = ["conda-forge"]
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64"]
 
 [dependencies]
 python = "3.12.*"
@@ -51,7 +51,7 @@ isort = false
 
 # allure配置
 [tool.allure]
-enable = false
+enable = true
 input = './report/json'
-open_report = true
+open_report = false
 output = './report/html'
