@@ -40,8 +40,6 @@ def pytest_runtest_makereport(item, call):
     rep = outcome.get_result()
     # 仅当处于测试调用阶段且测试失败时处理
     if rep.when == "call" and rep.failed:
-        if config["screenshot_on_failure"] == False:
-            return
         # 尝试找到测试使用的 Playwright page fixture
         page = None
         try:

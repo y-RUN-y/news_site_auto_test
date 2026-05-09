@@ -39,7 +39,6 @@ class TestSearchResultPage:
                 )
         except:
             result_page.take_screenshot('error_screenshot')
-            raise
         finally:
             result_page.close()
             
@@ -65,7 +64,6 @@ class TestSearchResultPage:
             )
         except Exception:
             result_page.take_screenshot(name='error_screenshot')
-            raise
         finally:
             result_page.close()
 
@@ -91,7 +89,6 @@ class TestSearchResultPage:
             )
         except Exception:
             result_page.take_screenshot(name='error_screenshot')
-            raise
         finally:
             result_page.close()
 
@@ -121,6 +118,5 @@ class TestSearchResultPage:
                 new_page.close()
         except Exception:
             result_page.take_screenshot(name='error_screenshot')
-            raise
         finally:
             result_page.close()
