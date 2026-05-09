@@ -1,0 +1,79 @@
+2026-05-09 08:22:27  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 08:22:30  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/video
+2026-05-09 08:22:30  WARNING  test_more_nav_item_click  227  error: assert '视频' in '腾讯网'
+ +  where '视频' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=0'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f11f590>.get_title
+2026-05-09 08:22:31  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082230.png
+2026-05-09 08:22:33  DEBUG  test_more_nav_item_click  215  page: title: 洛克王国：世界首发上线, link: https://h5.ssp.qq.com/lps/production/material/202603/6dd252bca51bce32c00af4e0b56aecba.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-09 08:22:33  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082233.png
+2026-05-09 08:22:35  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/digi/
+2026-05-09 08:22:35  WARNING  test_more_nav_item_click  227  error: assert '数码' in '腾讯网'
+ +  where '数码' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=2'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715c9c67b0>.get_title
+2026-05-09 08:22:37  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082235.png
+2026-05-09 08:22:39  DEBUG  test_more_nav_item_click  215  page: title: 综艺频道-最新热门综艺节目大全-高清正版在线观看-腾讯视频, link: https://v.qq.com/channel/variety/?ptag=qqnews
+2026-05-09 08:22:44  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082239.png
+2026-05-09 08:22:46  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/chupin/
+2026-05-09 08:22:46  WARNING  test_more_nav_item_click  227  error: assert '眼界' in '腾讯网'
+ +  where '眼界' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=4'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f11cd70>.get_title
+2026-05-09 08:22:47  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082246.png
+2026-05-09 08:22:49  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/football
+2026-05-09 08:22:49  WARNING  test_more_nav_item_click  227  error: assert '足球' in '腾讯网'
+ +  where '足球' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=5'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f107080>.get_title
+2026-05-09 08:22:50  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082249.png
+2026-05-09 08:22:52  DEBUG  test_more_nav_item_click  215  page: title: 逆战未来正式上线, link: https://h5.ssp.qq.com/lps/production/material/202601/224b4c86d909350257adae3d7d28d527.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-09 08:22:53  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082252.png
+2026-05-09 08:22:55  DEBUG  test_more_nav_item_click  215  page: title: 电影频道-最新热门电影大全-高清正版在线观看-腾讯视频, link: https://v.qq.com/channel/movie/?ptag=qqnews
+2026-05-09 08:23:01  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082255.png
+2026-05-09 08:23:03  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/esport
+2026-05-09 08:23:03  WARNING  test_more_nav_item_click  227  error: assert '电竞' in '腾讯网'
+ +  where '电竞' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=8'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f10c440>.get_title
+2026-05-09 08:23:05  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082303.png
+2026-05-09 08:23:07  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/history/
+2026-05-09 08:23:07  WARNING  test_more_nav_item_click  227  error: assert '历史' in '腾讯网'
+ +  where '历史' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=9'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f106180>.get_title
+2026-05-09 08:23:07  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082307.png
+2026-05-09 08:23:09  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/baby/
+2026-05-09 08:23:10  WARNING  test_more_nav_item_click  227  error: assert '育儿' in '腾讯网'
+ +  where '育儿' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=10'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715c9c57c0>.get_title
+2026-05-09 08:23:10  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082310.png
+2026-05-09 08:23:12  DEBUG  test_more_nav_item_click  215  page: title: 腾讯先锋-腾讯官方云游戏平台—原腾讯先游, link: https://gamer.qq.com/?ichannel=txxwpc0Ftxxwpc1
+2026-05-09 08:23:14  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082312.png
+2026-05-09 08:23:16  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/finance_licai/
+2026-05-09 08:23:16  WARNING  test_more_nav_item_click  227  error: assert '理财' in '腾讯网'
+ +  where '理财' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=12'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715c99f410>.get_title
+2026-05-09 08:23:17  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082316.png
+2026-05-09 08:23:19  DEBUG  test_more_nav_item_click  215  page: title: 腾讯网, link: https://news.qq.com/ch/finance_stock/
+2026-05-09 08:23:19  WARNING  test_more_nav_item_click  227  error: assert '股票' in '腾讯网'
+ +  where '股票' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.more-item >> nth=13'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f715f123da0>.get_title
+2026-05-09 08:23:19  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_082319.png
+2026-05-09 08:23:22  DEBUG  test_more_nav_item_click  215  page: title: 腾讯天气, link: https://tianqi.qq.com/index.htm
+2026-05-09 08:23:52  WARNING  test_more_nav_item_click  227  error: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...

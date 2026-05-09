@@ -1,0 +1,3 @@
+2026-05-09 08:24:22  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords[\U0001f600\U0001f525\U0001f389-0-1-200] in module scope ...
+2026-05-09 08:24:22  DEBUG  checkDepend  95  ... main_page has not succeeded
+2026-05-09 08:24:22  INFO  checkDepend  100  skip test_search_with_keywords[\U0001f600\U0001f525\U0001f389-0-1-200] because it depends on main_page

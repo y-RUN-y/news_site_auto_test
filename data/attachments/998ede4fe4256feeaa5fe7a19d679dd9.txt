@@ -1,5 +1,0 @@
-2026-05-09 07:59:24  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords[' OR '1'='1-0-1-501] in module scope ...
-2026-05-09 07:59:24  DEBUG  checkDepend  92  ... main_page succeeded
-2026-05-09 07:59:26  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 07:59:28  INFO  test_search_with_keywords  297  搜索 '' OR '1'='1' 后的URL: https://news.qq.com/search?query=%27%20OR%20%271%27%3D%271&page=1
-2026-05-09 07:59:28  INFO  test_search_with_keywords  305  搜索结果页标题: Loading https://waf.tencent.com/501page.html?u=https://news.qq.com&id=15da77f08ba1a0990ed99a648336cebf-1776310593520695-425-139877503805184-4506897772885433&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1MjclMjUyME9SJTI1MjAlMjUyNzElMjUyNyUyNTNEJTI1MjcxJTI2cGFnZSUzRDE=

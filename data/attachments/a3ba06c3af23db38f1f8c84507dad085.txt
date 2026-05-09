@@ -1,3 +1,0 @@
-2026-05-09 08:01:35  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:01:45  INFO  test_click_card_opens_new_tab  113  新页面URL: https://news.qq.com/rain/a/20260509A02CMD00, 标题: 全球产业链加速重构，AI技术如何影响中欧产业重构与合作？_腾讯新闻
-2026-05-09 08:02:15  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260509_080215.png

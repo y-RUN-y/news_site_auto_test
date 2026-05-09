@@ -1,5 +1,0 @@
-2026-05-09 07:55:14  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 07:55:14  DEBUG  test_nav_item_data  52  test data: title: 热问, link: https://news.qq.com/ch/qa
-2026-05-09 07:55:14  INFO  test_nav_item_data  56  导航项 '热问' 数量: 1
-2026-05-09 07:55:14  INFO  test_nav_item_data  60  导航项 '热问' 链接: https://news.qq.com/ch/qa, 期望: https://news.qq.com/ch/qa
-2026-05-09 07:55:15  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_075514.png

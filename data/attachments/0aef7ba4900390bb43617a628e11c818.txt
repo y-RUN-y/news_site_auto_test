@@ -1,6 +1,0 @@
-2026-05-09 07:59:18  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords[\u4e16\u754c\u676f-1-1-200] in module scope ...
-2026-05-09 07:59:18  DEBUG  checkDepend  92  ... main_page succeeded
-2026-05-09 07:59:20  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 07:59:22  INFO  test_search_with_keywords  297  搜索 '世界杯' 后的URL: https://news.qq.com/search?query=%E4%B8%96%E7%95%8C%E6%9D%AF&page=1
-2026-05-09 07:59:22  INFO  test_search_with_keywords  305  搜索结果页标题: 世界杯-搜索
-2026-05-09 07:59:24  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_075924.png

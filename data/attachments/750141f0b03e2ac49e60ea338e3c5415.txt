@@ -1,0 +1,7 @@
+2026-05-09 08:25:11  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 08:25:18  INFO  test_card_title_and_description  59  卡片 1 - 标题: 世界杯门票转售平台上，有决赛门票标价近1150万美元
+2026-05-09 08:25:18  INFO  test_card_title_and_description  59  卡片 2 - 标题: 世界杯
+2026-05-09 08:25:18  INFO  test_card_title_and_description  59  卡片 3 - 标题: 世界杯内地转播权僵持，不碍中国品牌出海“破门”
+2026-05-09 08:25:18  INFO  test_card_title_and_description  59  卡片 4 - 标题: 世界杯决赛门票炒到一千万美元！离谱到惊动国会，特朗普都嫌贵…
+2026-05-09 08:25:18  INFO  test_card_title_and_description  59  卡片 5 - 标题: 20亿转播费背后，世界杯正在离普通人越来越远
+2026-05-09 08:25:18  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082518.png

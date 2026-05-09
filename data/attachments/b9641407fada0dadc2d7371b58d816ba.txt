@@ -1,8 +1,0 @@
-2026-05-09 08:00:55  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  83  卡片 1 关键词已高亮
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  83  卡片 2 关键词已高亮
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  83  卡片 3 关键词已高亮
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  83  卡片 4 关键词已高亮
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  83  卡片 5 关键词已高亮
-2026-05-09 08:01:02  INFO  test_keyword_highlighted  84  前5个卡片中 5 个关键词被高亮
-2026-05-09 08:01:02  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_080102.png

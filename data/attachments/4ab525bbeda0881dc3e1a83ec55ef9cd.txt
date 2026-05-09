@@ -1,0 +1,5 @@
+2026-05-09 08:19:55  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 08:19:55  DEBUG  test_nav_item_data  52  test data: title: 教育, link: https://news.qq.com/ch/edu/
+2026-05-09 08:19:55  INFO  test_nav_item_data  56  导航项 '教育' 数量: 1
+2026-05-09 08:19:55  INFO  test_nav_item_data  60  导航项 '教育' 链接: https://news.qq.com/ch/edu/, 期望: https://news.qq.com/ch/edu/
+2026-05-09 08:19:56  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_081955.png
