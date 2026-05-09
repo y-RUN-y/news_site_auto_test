@@ -25,11 +25,6 @@ jobs:
 
       - run: pixi run test
 
-      - name: Generate Allure report
-        run: |
-          pixi run test
-          allure generate ./report/json -o ./report/html --clean
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         if: always()
