@@ -19,8 +19,6 @@ jobs:
 
       - run: pixi install
 
-      - run: pixi run npm install glob@latest
-
       - run: pixi run npm install -g allure
 
       - run: pixi run install-playwright 
