@@ -152,6 +152,7 @@ class TestNavBar:
                         )
                 except Exception as e:
                     logging.warning("error: %s", e)
+                    newpage.take_screenshot(name='error_screenshot')
                 finally:
                     newpage.close()
 
@@ -193,25 +194,24 @@ class TestNavBar:
     @allure.title("测试更多导航按钮弹出面板点击效果")
     @allure.description("验证点击更多菜单下拉项后能在新标签页正确打开对应链接")
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.completed
+    @pytest.mark.inprogress
     @pytest.mark.dependency(["visible"])
     def test_more_nav_item_click(self, context, page):
         main_page = MainPage(page)
         main_page.go_main_page()
         main_page.locator(main_page.NAV_ITEM).last.hover()
         more_items = main_page.locator(main_page.MORE_ITEM).all()
+        newpage = None
         for item in more_items:
             href = item.get_attribute("href")
             if href is not None:
                 try:
                     with allure.step(f"点击导航项 '{item.text_content()}'"):
-                        main_page.locator(main_page.NAV_ITEM).last.hover()
-                        item.click()
+                        with context.expect_page() as new_page_info:
+                            main_page.locator(main_page.NAV_ITEM).last.hover()
+                            item.click()
+                            newpage = BasePage(new_page_info.value)
                     with allure.step("验证新页面打开"):
-                        assert len(context.pages) == 2
-                        newpage = BasePage(
-                            [p for p in context.pages if p != main_page.page][0]
-                        )
                         logging.debug(
                             "page: title: %s, link: %s",
                             newpage.get_title(),
@@ -225,8 +225,11 @@ class TestNavBar:
                         )
                 except Exception as e:
                     logging.warning("error: %s", e)
+                    if newpage is not None:
+                        newpage.take_screenshot(name='error_screenshot')
                 finally:
-                    newpage.close()
+                    if newpage is not None:
+                        newpage.close()
 
 
 @allure.feature("测试搜索栏")
