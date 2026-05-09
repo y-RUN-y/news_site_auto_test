@@ -53,8 +53,7 @@ def main():
     if mode == "run":
         run_command(pytest_cmd)
     elif mode == "build":
-        pytest_cmd.extend(["-p", "no:dependency"])
-        pytest_cmd.extend(["-m", "inprogress"])
+        pytest_cmd.extend(["-p", "no:dependency", "-m", "inprogress"])
         run_command(pytest_cmd)
 
     if allure_cfg["enable"]:
