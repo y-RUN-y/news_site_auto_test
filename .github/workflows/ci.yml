@@ -52,7 +52,7 @@ jobs:
           path: ./report_temp
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./report_temp
@@ -67,8 +67,8 @@ jobs:
         with:
           server_address: smtp.qq.com
           server_port: 587
-          username: 2080554836@qq.com
-          password: ofqfxcertizkfheg
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           secure: false
           subject: Tencent News Test Report - ${{ github.run_number }}
           to: yangcj20220508@gmail.com

@@ -32,7 +32,7 @@ scripts = []
 
 # playwright启动配置
 [tool.playwright]
-launch_options = {headless = true, timeout = 3000, slow_mo = 1000}
+launch_options = {headless = true, timeout = 3000, slow_mo = 1000, args=["--font-render-hinting=none"]}
 platform = "" # 测试平台：chromium、firefox、webkit，默认chromium
 
 # autoflake配置
