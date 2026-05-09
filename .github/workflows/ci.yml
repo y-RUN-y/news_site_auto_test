@@ -23,7 +23,7 @@ jobs:
 
       - run: pixi run install-playwright 
 
-      - run: pixi run test
+      - run: pixi run run
 
       - run: pixi run allure generate ./report/json -o ./report/html
 
@@ -69,7 +69,7 @@ jobs:
           server_port: 587
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          secure: false
+          secure: true
           subject: Tencent News Test Report - ${{ github.run_number }}
           to: yangcj20220508@gmail.com
           from: ${{ secrets.MAIL_USERNAME }}
