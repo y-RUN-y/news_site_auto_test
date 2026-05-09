@@ -1,3 +1,0 @@
-2026-05-09 08:26:13  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:26:23  INFO  test_click_card_opens_new_tab  113  新页面URL: https://news.qq.com/rain/a/20260509A045PM00, 标题: 世界杯门票转售平台上，有决赛门票标价近1150万美元_腾讯新闻
-2026-05-09 08:26:23  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082623.png

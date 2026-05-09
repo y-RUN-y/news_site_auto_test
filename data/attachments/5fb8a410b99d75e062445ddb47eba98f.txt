@@ -1,0 +1,7 @@
+2026-05-09 09:02:49  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 09:02:54  INFO  test_card_title_and_description  59  卡片 1 - 标题: 2026世界杯开赛还剩1个多月，转播权报价陷“拉锯战”
+2026-05-09 09:02:54  INFO  test_card_title_and_description  59  卡片 2 - 标题: 2026世界杯美加墨三国将分别举办开幕式
+2026-05-09 09:02:54  INFO  test_card_title_and_description  59  卡片 3 - 标题: 世界杯 倒计时 30天！内地转播权卡壳，香港抢先拿下，球迷还能正常看球吗？
+2026-05-09 09:02:54  INFO  test_card_title_and_description  59  卡片 4 - 标题: 世界杯门票彻底疯了！决赛一张票卖22万+ 二级市场甚至超千万
+2026-05-09 09:02:54  INFO  test_card_title_and_description  59  卡片 5 - 标题: 世界杯
+2026-05-09 09:02:54  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_090254.png

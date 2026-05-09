@@ -1,4 +1,0 @@
-2026-05-09 08:18:59  DEBUG  __init__  64  Using selector: EpollSelector
-2026-05-09 08:19:03  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:19:03  INFO  test_open_main_page  24  验证URL包含 'qq.com': https://www.qq.com/
-2026-05-09 08:19:03  INFO  test_open_main_page  28  验证页面标题: 腾讯网

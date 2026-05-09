@@ -1,2 +1,0 @@
-2026-05-09 08:25:01  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:25:09  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_082508.png

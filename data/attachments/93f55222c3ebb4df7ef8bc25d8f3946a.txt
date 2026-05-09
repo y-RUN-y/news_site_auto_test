@@ -1,0 +1,4 @@
+2026-05-09 08:59:07  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 08:59:07  WARNING  test_nav_item_click  149  error: assert 1 == 2
+ +  where 1 = len([<Page url='https://www.qq.com/'>])
+ +    where [<Page url='https://www.qq.com/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages

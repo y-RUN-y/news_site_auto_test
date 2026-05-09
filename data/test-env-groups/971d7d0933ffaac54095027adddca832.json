@@ -1,1 +1,1 @@
-{"id":"971d7d0933ffaac54095027adddca832","fullName":"test_cases.test_main_page#test_open_main_page","name":"打开腾讯新闻首页","status":"broken","testResultsByEnv":{"default":"eaf8f8d4b5d2daa782121b6df0b7dd6f"}}
+{"id":"971d7d0933ffaac54095027adddca832","fullName":"test_cases.test_main_page#test_open_main_page","name":"打开腾讯新闻首页","status":"passed","testResultsByEnv":{"default":"f152a94b046e6028db7fe5103a47ada7"}}
