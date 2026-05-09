@@ -5,6 +5,9 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -17,7 +20,14 @@ jobs:
 
       - run: pixi run install-playwright
 
+      - run: pixi run lint
+
       - run: pixi run run
+
+      - name: Generate Allure report
+        run: |
+          pixi run test
+          allure generate ./report/json -o ./report/html --clean
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
