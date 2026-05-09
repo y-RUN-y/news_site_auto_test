@@ -14,7 +14,6 @@ from utils.csv_reader import CSVReader
 @allure.severity(allure.severity_level.BLOCKER)
 @allure.link("https://www.qq.com", name="腾讯新闻")
 @pytest.mark.completed
-@pytest.mark.dependency(name="main_page")
 def test_open_main_page(page):
     main_page = MainPage(page)
     with allure.step("打开首页"):
@@ -34,7 +33,6 @@ def test_open_main_page(page):
 
 
 @allure.feature("测试顶部分类导航区")
-@pytest.mark.dependency(depends=["main_page"])
 class TestNavBar:
     def get_nav_item_test_data():
         csv_reader = CSVReader(f"{project_root}/data/nav_links.csv")
@@ -45,7 +43,6 @@ class TestNavBar:
     @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.completed
     @pytest.mark.parametrize("title, link", get_nav_item_test_data())
-    @pytest.mark.dependency(name="nav_data")
     def test_nav_item_data(self, page, title, link):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -72,7 +69,6 @@ class TestNavBar:
     @allure.description("验证导航项hover时::before伪元素样式变化")
     @allure.severity(allure.severity_level.TRIVIAL)
     @pytest.mark.completed
-    @pytest.mark.dependency(name="nav_item_hover")
     def test_nav_item_hover(self, page):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -119,7 +115,6 @@ class TestNavBar:
     @allure.description("验证点击导航项后能在新标签页正确打开对应链接")
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.completed
-    @pytest.mark.dependency(["nav_data"])
     def test_nav_item_click(self, context, page):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -160,7 +155,6 @@ class TestNavBar:
     @allure.description("验证更多菜单hover时下拉面板显示，鼠标移开后隐藏")
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.completed
-    @pytest.mark.dependency(["nav_item_hover"], name="visible")
     def test_more_nav_item_visible(self, page):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -177,7 +171,6 @@ class TestNavBar:
     @allure.description("验证更多菜单下拉项hover时文字颜色由黑色变为蓝色")
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.completed
-    @pytest.mark.dependency(["visible"])
     def test_more_nav_item_hover(self, page):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -195,7 +188,6 @@ class TestNavBar:
     @allure.description("验证点击更多菜单下拉项后能在新标签页正确打开对应链接")
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.completed
-    @pytest.mark.dependency(["visible"])
     def test_more_nav_item_click(self, context, page):
         main_page = MainPage(page)
         main_page.go_main_page()
@@ -233,7 +225,6 @@ class TestNavBar:
 
 
 @allure.feature("测试搜索栏")
-@pytest.mark.dependency(depends=["main_page"])
 class TestSearch:
     def get_search_keywords():
         csv_reader = CSVReader(f"{project_root}/data/search_keywords.csv")

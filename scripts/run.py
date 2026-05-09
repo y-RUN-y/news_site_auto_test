@@ -16,13 +16,6 @@ allure_cfg = config["allure"]
 def main():
     parser = argparse.ArgumentParser(description="运行测试用例")
     parser.add_argument(
-        "--mode",
-        type=str,
-        choices=["run", "build"],
-        default=None,
-        help="运行模式：run 或 build（会覆盖配置文件的 mode）",
-    )
-    parser.add_argument(
         "-m",
         "--marker",
         type=str,
@@ -47,14 +40,6 @@ def main():
         pytest_cmd.extend(args.test_path)
     if args.marker:
         pytest_cmd.extend(["-m", args.marker])
-
-    mode = args.mode if args.mode else config.get("mode", "run")
-
-    if mode == "run":
-        run_command(pytest_cmd)
-    elif mode == "build":
-        pytest_cmd.extend(["-p", "no:dependency"])
-        run_command(pytest_cmd)
 
     if allure_cfg["enable"]:
         output_dir = project_root / allure_cfg["output"].strip("'\"")
