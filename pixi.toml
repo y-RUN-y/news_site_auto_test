@@ -8,6 +8,7 @@ platforms = ["win-64", "linux-64"]
 
 [dependencies]
 python = "3.12.*"
+nodejs = ">=25.8.2,<25.9"
 
 [pypi-dependencies]
 pytest = ">=9.0.3,<10.0.0"
