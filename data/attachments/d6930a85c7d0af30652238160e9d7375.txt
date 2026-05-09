@@ -1,0 +1,5 @@
+2026-05-09 07:59:32  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords[<script>alert('xss')</script>-0-1-501] in module scope ...
+2026-05-09 07:59:32  DEBUG  checkDepend  92  ... main_page succeeded
+2026-05-09 07:59:34  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 07:59:36  INFO  test_search_with_keywords  297  搜索 '<script>alert('xss')' 后的URL: https://waf.tencent.com/501page.html?u=https://news.qq.com&id=d8ddb430e1e55644942deec0684fdf6d-1778307123824778-414-140197498808064-14564656398757&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1M0NzY3JpcHQlMjUzRWFsZXJ0KCUyNTI3eHNzJTI1MjcpJTI1M0MlMjUyRnNjcmlwdCUyNTNFJTI2cGFnZSUzRDE=
+2026-05-09 07:59:36  INFO  test_search_with_keywords  305  搜索结果页标题:

@@ -1,6 +1,0 @@
-2026-05-09 07:32:29\tINFO\topen_url\t38\t跳转到：https://www.qq.com
-2026-05-09 07:32:29\tDEBUG\ttest_nav_item_data\t52\ttest data: title: 更多, link: None
-2026-05-09 07:32:29\tINFO\ttest_nav_item_data\t56\t导航项 '更多' 数量: 1
-2026-05-09 07:32:29\tINFO\ttest_nav_item_data\t60\t导航项 '更多' 链接: None, 期望: None
-2026-05-09 07:32:29\tINFO\ttest_nav_item_data\t65\t导航项无链接, 验证文本为 '更多': 更多
-2026-05-09 07:32:30\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073229.png

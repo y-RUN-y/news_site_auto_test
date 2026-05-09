@@ -1,0 +1,5 @@
+2026-05-09 07:55:23  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 07:55:23  DEBUG  test_nav_item_data  52  test data: title: 电视剧, link: https://v.qq.com/channel/tv/?ptag=qqnews
+2026-05-09 07:55:23  INFO  test_nav_item_data  56  导航项 '电视剧' 数量: 1
+2026-05-09 07:55:23  INFO  test_nav_item_data  60  导航项 '电视剧' 链接: https://v.qq.com/channel/tv/?ptag=qqnews, 期望: https://v.qq.com/channel/tv/?ptag=qqnews
+2026-05-09 07:55:24  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_075523.png

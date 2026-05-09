@@ -1,0 +1,5 @@
+2026-05-09 07:59:28  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords['; DROP TABLE users; ---0-1-501] in module scope ...
+2026-05-09 07:59:28  DEBUG  checkDepend  92  ... main_page succeeded
+2026-05-09 07:59:30  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 07:59:32  INFO  test_search_with_keywords  297  搜索 ''; DROP TABLE users;' 后的URL: https://waf.tencent.com/501page.html?u=https://news.qq.com&id=1409270f876c158d844a2b332b14e165-1776307479595240-433-139663042447104-84913141165077730&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1MjclMjUzQiUyNTIwRFJPUCUyNTIwVEFCTEUlMjUyMHVzZXJzJTI1M0IlMjUyMC0tJTI2cGFnZSUzRDE=
+2026-05-09 07:59:32  INFO  test_search_with_keywords  305  搜索结果页标题:

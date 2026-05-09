@@ -1,5 +1,0 @@
-2026-05-09 07:31:49\tINFO\topen_url\t38\t跳转到：https://www.qq.com
-2026-05-09 07:31:49\tDEBUG\ttest_nav_item_data\t52\ttest data: title: 热问, link: https://news.qq.com/ch/qa
-2026-05-09 07:31:49\tINFO\ttest_nav_item_data\t56\t导航项 '热问' 数量: 1
-2026-05-09 07:31:49\tINFO\ttest_nav_item_data\t60\t导航项 '热问' 链接: https://news.qq.com/ch/qa, 期望: https://news.qq.com/ch/qa
-2026-05-09 07:31:51\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073149.png

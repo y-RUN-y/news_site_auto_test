@@ -1,0 +1,5 @@
+2026-05-09 07:55:04  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 07:55:04  DEBUG  test_nav_item_data  52  test data: title: 财经, link: https://news.qq.com/ch/finance/
+2026-05-09 07:55:04  INFO  test_nav_item_data  56  导航项 '财经' 数量: 1
+2026-05-09 07:55:04  INFO  test_nav_item_data  60  导航项 '财经' 链接: https://news.qq.com/ch/finance/, 期望: https://news.qq.com/ch/finance/
+2026-05-09 07:55:05  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_075504.png

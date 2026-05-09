@@ -1,0 +1,4 @@
+2026-05-09 07:59:37  DEBUG  checkDepend  87  check dependencies of test_search_with_keywords[-0-0-None] in module scope ...
+2026-05-09 07:59:37  DEBUG  checkDepend  92  ... main_page succeeded
+2026-05-09 07:59:38  INFO  open_url  38  跳转到：https://www.qq.com
+2026-05-09 07:59:41  INFO  test_search_with_keywords  297  搜索 '' 后的URL: https://news.qq.com/search?query=&page=1

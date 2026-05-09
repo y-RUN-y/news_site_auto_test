@@ -1,5 +1,0 @@
-2026-05-09 07:31:59\tINFO\topen_url\t38\t跳转到：https://www.qq.com
-2026-05-09 07:31:59\tDEBUG\ttest_nav_item_data\t52\ttest data: title: 电视剧, link: https://v.qq.com/channel/tv/?ptag=qqnews
-2026-05-09 07:31:59\tINFO\ttest_nav_item_data\t56\t导航项 '电视剧' 数量: 1
-2026-05-09 07:31:59\tINFO\ttest_nav_item_data\t60\t导航项 '电视剧' 链接: https://v.qq.com/channel/tv/?ptag=qqnews, 期望: https://v.qq.com/channel/tv/?ptag=qqnews
-2026-05-09 07:32:00\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073159.png
