@@ -23,20 +23,15 @@ tomli = ">=2.0.0,<3.0.0"
 clean = "python scripts/clean.py"
 install-playwright = "playwright install"
 lint = "python scripts/lint.py"
-run = "python scripts/run.py --mode run -m completed"
-test = "python scripts/run.py --mode build -m inprogress"
+run = "python scripts/run.py -m completed"
+test = "python scripts/run.py -m inprogress"
 
 [activation]
 scripts = []
 
 # playwright启动配置
 [tool.playwright]
-launch_options = {
-    headless = true, 
-    wait_until = "networkidle", 
-    timeout = 5000, 
-    args = ["--font-render-hinting=none"]
-    } 
+launch_options = {headless = true, timeout = 5000, args = ["--font-render-hinting=none"]} 
 platform = "" # 测试平台：chromium、firefox、webkit，默认chromium
 
 # autoflake配置

@@ -203,6 +203,7 @@ class TestNavBar:
                             main_page.locator(main_page.NAV_ITEM).last.hover()
                             item.click()
                             newpage = BasePage(new_page_info.value)
+                            newpage.wait_for_load_state('networkidle')
                     with allure.step("验证新页面打开"):
                         logging.debug(
                             "page: title: %s, link: %s",

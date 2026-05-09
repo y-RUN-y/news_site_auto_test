@@ -40,6 +40,8 @@ def main():
         pytest_cmd.extend(args.test_path)
     if args.marker:
         pytest_cmd.extend(["-m", args.marker])
+    
+    run_command(pytest_cmd)
 
     if allure_cfg["enable"]:
         output_dir = project_root / allure_cfg["output"].strip("'\"")
