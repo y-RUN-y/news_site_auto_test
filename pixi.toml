@@ -24,7 +24,7 @@ tomli = ">=2.0.0,<3.0.0"
 install-playwright = "playwright install"
 lint = "python scripts/lint.py"
 run = "python scripts/run.py --mode run -m completed"
-test = "python print('test')"
+test = "python -c \"print('test')\""
 # test = "python scripts/run.py --mode build -m inprogress"
 clean = "python scripts/clean.py"
 
