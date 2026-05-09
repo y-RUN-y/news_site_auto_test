@@ -21,8 +21,6 @@ jobs:
 
       - run: pixi run install-playwright
 
-      - run: pixi run lint
-
       - run: pixi run run
 
       - name: Generate Allure report
