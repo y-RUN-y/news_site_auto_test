@@ -1,0 +1,5 @@
+2026-05-09 07:32:26\tINFO\topen_url\t38\t跳转到：https://www.qq.com
+2026-05-09 07:32:26\tDEBUG\ttest_nav_item_data\t52\ttest data: title: 游戏中心, link: https://news.qq.com/ch/game_center
+2026-05-09 07:32:26\tINFO\ttest_nav_item_data\t56\t导航项 '游戏中心' 数量: 1
+2026-05-09 07:32:26\tINFO\ttest_nav_item_data\t60\t导航项 '游戏中心' 链接: https://news.qq.com/ch/game_center, 期望: https://news.qq.com/ch/game_center
+2026-05-09 07:32:27\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073226.png

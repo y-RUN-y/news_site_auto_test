@@ -1,0 +1,5 @@
+2026-05-09 07:31:43\tINFO\topen_url\t38\t跳转到：https://www.qq.com
+2026-05-09 07:31:43\tDEBUG\ttest_nav_item_data\t52\ttest data: title: 国际, link: https://news.qq.com/ch/world/
+2026-05-09 07:31:43\tINFO\ttest_nav_item_data\t56\t导航项 '国际' 数量: 1
+2026-05-09 07:31:43\tINFO\ttest_nav_item_data\t60\t导航项 '国际' 链接: https://news.qq.com/ch/world/, 期望: https://news.qq.com/ch/world/
+2026-05-09 07:31:44\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073143.png

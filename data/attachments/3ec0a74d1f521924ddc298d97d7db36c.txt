@@ -1,0 +1,54 @@
+2026-05-09 07:33:16\tINFO\topen_url\t38\t跳转到：https://www.qq.com
+2026-05-09 07:33:17\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网, link: https://news.qq.com/
+2026-05-09 07:33:17\tWARNING\ttest_nav_item_click\t154\terror: assert '要闻' in '腾讯网'
+ +  where '要闻' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=0'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f7a042132f0>.get_title
+2026-05-09 07:33:18\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网, link: https://news.qq.com/ch/tech/
+2026-05-09 07:33:18\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073318.png
+2026-05-09 07:33:19\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网-财经, link: https://news.qq.com/ch/finance/
+2026-05-09 07:33:22\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073319.png
+2026-05-09 07:33:23\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网-国际, link: https://news.qq.com/ch/world/
+2026-05-09 07:33:23\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073323.png
+2026-05-09 07:33:24\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网-军事, link: https://news.qq.com/ch/milite/
+2026-05-09 07:33:24\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073324.png
+2026-05-09 07:33:25\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网, link: https://news.qq.com/ch/qa
+2026-05-09 07:33:25\tWARNING\ttest_nav_item_click\t154\terror: assert '热问' in '腾讯网'
+ +  where '热问' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=5'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <pages.base_page.BasePage object at 0x7f7a03f221e0>.get_title
+2026-05-09 07:33:26\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网-教育, link: https://news.qq.com/ch/edu/
+2026-05-09 07:33:26\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073326.png
+2026-05-09 07:33:28\tDEBUG\ttest_nav_item_click\t138\tpage: title: 腾讯网-娱乐, link: https://news.qq.com/ch/ent/
+2026-05-09 07:33:29\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073328.png
+2026-05-09 07:33:30\tDEBUG\ttest_nav_item_click\t138\tpage: title: 电视剧频道-最新热门电视剧大全-高清正版在线观看-腾讯视频, link: https://v.qq.com/channel/tv/?ptag=qqnews
+2026-05-09 07:33:35\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073330.png
+2026-05-09 07:33:36\tWARNING\ttest_nav_item_click\t154\terror: assert 1 == 2
+ +  where 1 = len([<Page url='https://www.qq.com/'>])
+ +    where [<Page url='https://www.qq.com/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:37\tWARNING\ttest_nav_item_click\t154\terror: assert 3 == 2
+ +  where 3 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:38\tWARNING\ttest_nav_item_click\t154\terror: assert 4 == 2
+ +  where 4 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:40\tWARNING\ttest_nav_item_click\t154\terror: assert 5 == 2
+ +  where 5 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:41\tWARNING\ttest_nav_item_click\t154\terror: assert 6 == 2
+ +  where 6 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:42\tWARNING\ttest_nav_item_click\t154\terror: assert 7 == 2
+ +  where 7 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:43\tWARNING\ttest_nav_item_click\t154\terror: assert 8 == 2
+ +  where 8 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:45\tWARNING\ttest_nav_item_click\t154\terror: assert 9 == 2
+ +  where 9 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages
+2026-05-09 07:33:46\tWARNING\ttest_nav_item_click\t154\terror: assert 10 == 2
+ +  where 10 = len([<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...])
+ +    where [<Page url='https://www.qq.com/'>, <Page url='https://sports.qq.com/?from=qqnews'>, <Page url='https://sports.qq.com/nba/index.shtml?from=qqnews'>, <Page url='https://news.qq.com/ch/auto/'>, <Page url='https://news.qq.com/ch/house/'>, <Page url='https://news.qq.com/ch/games/'>, ...] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages

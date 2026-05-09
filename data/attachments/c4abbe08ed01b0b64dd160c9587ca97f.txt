@@ -1,5 +1,0 @@
-2026-05-09 06:58:16\tDEBUG\t__init__\t64\tUsing selector: EpollSelector
-2026-05-09 06:58:19\tINFO\topen_url\t38\t跳转到：https://www.qq.com
-2026-05-09 06:58:19\tINFO\ttest_open_main_page\t24\t验证URL包含 'qq.com': https://www.qq.com/
-2026-05-09 06:58:19\tINFO\ttest_open_main_page\t28\t验证页面标题: 腾讯网
-2026-05-09 06:58:22\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_065819.png

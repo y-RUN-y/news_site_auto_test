@@ -1,0 +1,40 @@
+2026-05-09 07:32:32\tINFO\topen_url\t38\t跳转到：https://www.qq.com
+2026-05-09 07:32:32\tINFO\ttest_nav_item_hover\t80\t共找到 19 个导航项
+2026-05-09 07:32:33\tINFO\ttest_nav_item_hover\t106\t导航项 '要闻' hover前: none, hover后: ""
+2026-05-09 07:32:34\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073233.png
+2026-05-09 07:32:35\tINFO\ttest_nav_item_hover\t106\t导航项 '科技' hover前: none, hover后: ""
+2026-05-09 07:32:36\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073235.png
+2026-05-09 07:32:38\tINFO\ttest_nav_item_hover\t106\t导航项 '财经' hover前: none, hover后: ""
+2026-05-09 07:32:39\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073238.png
+2026-05-09 07:32:40\tINFO\ttest_nav_item_hover\t106\t导航项 '国际' hover前: none, hover后: ""
+2026-05-09 07:32:41\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073240.png
+2026-05-09 07:32:42\tINFO\ttest_nav_item_hover\t106\t导航项 '军事' hover前: none, hover后: ""
+2026-05-09 07:32:43\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073242.png
+2026-05-09 07:32:44\tINFO\ttest_nav_item_hover\t106\t导航项 '热问' hover前: none, hover后: ""
+2026-05-09 07:32:45\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073244.png
+2026-05-09 07:32:46\tINFO\ttest_nav_item_hover\t106\t导航项 '教育' hover前: none, hover后: ""
+2026-05-09 07:32:47\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073246.png
+2026-05-09 07:32:49\tINFO\ttest_nav_item_hover\t106\t导航项 '娱乐' hover前: none, hover后: ""
+2026-05-09 07:32:50\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073249.png
+2026-05-09 07:32:51\tINFO\ttest_nav_item_hover\t106\t导航项 '电视剧' hover前: none, hover后: ""
+2026-05-09 07:32:52\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073251.png
+2026-05-09 07:32:53\tINFO\ttest_nav_item_hover\t106\t导航项 '体育' hover前: none, hover后: ""
+2026-05-09 07:32:54\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073253.png
+2026-05-09 07:32:55\tINFO\ttest_nav_item_hover\t106\t导航项 'NBA' hover前: none, hover后: ""
+2026-05-09 07:32:56\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073255.png
+2026-05-09 07:32:57\tINFO\ttest_nav_item_hover\t106\t导航项 '汽车' hover前: none, hover后: ""
+2026-05-09 07:32:58\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073257.png
+2026-05-09 07:33:00\tINFO\ttest_nav_item_hover\t106\t导航项 '房产' hover前: none, hover后: ""
+2026-05-09 07:33:01\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073300.png
+2026-05-09 07:33:02\tINFO\ttest_nav_item_hover\t106\t导航项 '游戏' hover前: none, hover后: ""
+2026-05-09 07:33:03\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073302.png
+2026-05-09 07:33:04\tINFO\ttest_nav_item_hover\t106\t导航项 '健康' hover前: none, hover后: ""
+2026-05-09 07:33:05\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073304.png
+2026-05-09 07:33:06\tINFO\ttest_nav_item_hover\t106\t导航项 '科学' hover前: none, hover后: ""
+2026-05-09 07:33:07\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073306.png
+2026-05-09 07:33:08\tINFO\ttest_nav_item_hover\t106\t导航项 '王者世界' hover前: none, hover后: ""
+2026-05-09 07:33:09\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073308.png
+2026-05-09 07:33:11\tINFO\ttest_nav_item_hover\t106\t导航项 '游戏中心' hover前: none, hover后: ""
+2026-05-09 07:33:12\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073311.png
+2026-05-09 07:33:13\tINFO\ttest_nav_item_hover\t87\t更多菜单下拉 class: rc-dropdown qqcom-dropdown dropdown-nav-more rc-dropdown-placement-bottomRight
+2026-05-09 07:33:14\tINFO\ttake_screenshot\t104\t已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_073313.png
