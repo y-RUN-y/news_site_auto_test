@@ -28,7 +28,7 @@ jobs:
       - run: pixi run allure generate ./report/json -o ./report/html
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: allure-report
@@ -45,27 +45,18 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - uses: actions/download-artifact@v4
+      - name: Download allure report
+        uses: actions/download-artifact@v5
         with:
           name: allure-report
-          path: .
+          path: ./report_temp
 
-      - name: Prepare gh-pages
-        run: |
-          git checkout gh-pages || git checkout --orphan gh-pages
-          git rm -rf .
-          cp -r report/html/* .
-          rm -rf report
-        shell: bash
-
-      - name: Deploy
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "Update test report"
-          git push -f origin gh-pages
-        shell: bash
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./report_temp
+          keep_files: false  # 完全覆盖 gh-pages 分支
 
   notify:
     needs: test
@@ -76,11 +67,12 @@ jobs:
         with:
           server_address: smtp.qq.com
           server_port: 587
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
+          username: 2080554836@qq.com
+          password: ofqfxcertizkfheg
+          secure: false
           subject: Tencent News Test Report - ${{ github.run_number }}
-          to: 2080554836@qq.com
-          from: Test Automation
+          to: yangcj20220508@gmail.com
+          from: ${{ secrets.MAIL_USERNAME }}
           body: |
             Test run #${{ github.run_number }} completed.
             Status: ${{ needs.test.result }}
