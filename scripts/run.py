@@ -53,16 +53,9 @@ def main():
     if mode == "run":
         run_command(pytest_cmd)
     elif mode == "build":
-        if test_cfg["black"]:
-            run_command(["black", "."])
-        if test_cfg["isort"]:
-            run_command(["isort", "."])
         pytest_cmd.extend(["-p", "no:dependency"])
-        if args.test_path or args.marker:
-            run_command(pytest_cmd)
-        else:
-            pytest_cmd.extend(["-m", "inprogress"])
-            run_command(pytest_cmd)
+        pytest_cmd.extend(["-m", "inprogress"])
+        run_command(pytest_cmd)
 
     if allure_cfg["enable"]:
         output_dir = project_root / allure_cfg["output"].strip("'\"")
