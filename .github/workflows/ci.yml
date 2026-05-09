@@ -42,11 +42,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout gh-pages
+        run: |
+          if ! git ls-remote --heads origin gh-pages | grep -q gh-pages; then
+            git checkout --orphan gh-pages
+            git rm -rf .
+          else
+            git fetch origin gh-pages
+            git checkout -b gh-pages origin/gh-pages
+          fi
+        shell: bash
 
       - uses: actions/download-artifact@v4
         with:
@@ -55,11 +60,13 @@ jobs:
 
       - name: Deploy
         run: |
+          cp -r report/html/* . || true
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Update test report" || exit 0
+          git diff --cached --quiet || git commit -m "Update test report"
           git push -f origin gh-pages
+        shell: bash
 
   notify:
     needs: test
