@@ -1,8 +1,8 @@
 name: CI & Deploy
 
 on:
-  schedule:
-    - cron: '0 2 * * *'
+  # schedule:
+  #   - cron: '0 2 * * *'
   workflow_dispatch:
 
 
@@ -57,23 +57,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./report_temp
           keep_files: false  # 完全覆盖 gh-pages 分支
-
-  notify:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Send email
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.qq.com
-          server_port: 587
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          secure: true
-          subject: Tencent News Test Report - ${{ github.run_number }}
-          to: yangcj20220508@gmail.com
-          from: ${{ secrets.MAIL_USERNAME }}
-          body: |
-            Test run #${{ github.run_number }} completed.
-            Status: ${{ needs.test.result }}
-            Report: https://${{ github.repository }}.github.io/${{ github.event.repository.name }}/
