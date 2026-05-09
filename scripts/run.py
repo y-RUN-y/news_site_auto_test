@@ -1,5 +1,10 @@
 import argparse
 import shutil
+import sys
+from pathlib import Path
+
+project_root = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(project_root))
 
 from utils.conf_loader import config, project_root
 from utils.run_command import run_command
