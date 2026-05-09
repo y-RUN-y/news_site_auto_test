@@ -52,7 +52,7 @@ isort = false
 
 # allure配置
 [tool.allure]
-enable = true
+enable = false
 input = './report/json'
 open_report = false
 output = './report/html'
