@@ -1,3 +1,0 @@
-2026-05-09 09:03:34  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 09:03:41  INFO  test_click_card_opens_new_tab  113  新页面URL: https://news.qq.com/rain/a/20260509A05SIG00, 标题: 2026世界杯开赛还剩1个多月，转播权报价陷“拉锯战”_腾讯新闻
-2026-05-09 09:03:44  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_090341.png

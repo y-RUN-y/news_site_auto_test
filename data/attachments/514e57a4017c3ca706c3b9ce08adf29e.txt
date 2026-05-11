@@ -1,0 +1,7 @@
+2026-05-11 08:16:18  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 08:16:23  INFO  test_card_title_and_description  60  卡片 1 - 标题: 世界杯还有一个月，结果咱们可能没球看？
+2026-05-11 08:16:23  INFO  test_card_title_and_description  60  卡片 2 - 标题: 当世界杯成为一门“生意”
+2026-05-11 08:16:23  INFO  test_card_title_and_description  60  卡片 3 - 标题: 世界杯转播费暴降超10亿！还有一个月 国际足联慌了
+2026-05-11 08:16:23  INFO  test_card_title_and_description  60  卡片 4 - 标题: 世界杯开幕在即，伊朗队仍未获得美方签证
+2026-05-11 08:16:23  INFO  test_card_title_and_description  60  卡片 5 - 标题: “专坑中国”，世界杯这回撞墙了
+2026-05-11 08:16:24  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_081623.png

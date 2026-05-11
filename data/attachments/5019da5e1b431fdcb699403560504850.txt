@@ -1,3 +1,0 @@
-2026-05-09 09:02:00  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 09:02:00  INFO  test_search_with_keywords  292  搜索 'Apple' 后的URL: https://news.qq.com/search?query=AI%E6%8A%80%E6%9C%AF&page=1
-2026-05-09 09:02:00  INFO  test_search_with_keywords  300  搜索结果页标题: AI技术-搜索

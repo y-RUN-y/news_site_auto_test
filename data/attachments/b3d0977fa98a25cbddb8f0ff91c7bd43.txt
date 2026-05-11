@@ -1,4 +1,0 @@
-2026-05-09 09:01:33  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 09:01:34  INFO  test_search_suggestions_appear  261  搜索提示项数量: 10
-2026-05-09 09:01:34  INFO  test_search_suggestions_appear  268  第一个搜索提示: ai技术是什么
-2026-05-09 09:01:34  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_090134.png

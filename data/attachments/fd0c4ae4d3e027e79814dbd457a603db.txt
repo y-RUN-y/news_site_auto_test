@@ -1,5 +1,0 @@
-2026-05-09 08:57:24  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:57:24  DEBUG  test_nav_item_data  49  test data: title: 国际, link: https://news.qq.com/ch/world/
-2026-05-09 08:57:24  INFO  test_nav_item_data  53  导航项 '国际' 数量: 1
-2026-05-09 08:57:24  INFO  test_nav_item_data  57  导航项 '国际' 链接: https://news.qq.com/ch/world/, 期望: https://news.qq.com/ch/world/
-2026-05-09 08:57:26  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_085724.png

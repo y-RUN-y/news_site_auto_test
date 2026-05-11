@@ -1,1 +1,1 @@
-{"id":"807c5ea6d0601ae7008c97ed0779050b","fullName":"test_cases.test_main_page.TestSearch#test_search_suggestions_appear","name":"测试输入搜索词时显示搜索提示","status":"passed","testResultsByEnv":{"default":"51b854a3aed7dfa3c66dfd51135f5585"}}
+{"id":"807c5ea6d0601ae7008c97ed0779050b","fullName":"test_cases.test_main_page.TestSearch#test_search_suggestions_appear","name":"测试输入搜索词时显示搜索提示","status":"passed","testResultsByEnv":{"default":"937335db156bbebe3999dfbfd9687382"}}

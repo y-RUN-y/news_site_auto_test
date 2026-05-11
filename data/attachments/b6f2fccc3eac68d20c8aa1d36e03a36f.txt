@@ -1,0 +1,3 @@
+2026-05-11 08:15:25  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 08:15:26  INFO  test_search_with_keywords  297  搜索 '腾讯新闻' 后的URL: https://www.qq.com/
+2026-05-11 08:15:26  INFO  test_search_with_keywords  305  搜索结果页标题: 腾讯网

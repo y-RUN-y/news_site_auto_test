@@ -1,5 +1,0 @@
-2026-05-09 08:57:15  INFO  open_url  38  跳转到：https://www.qq.com
-2026-05-09 08:57:15  DEBUG  test_nav_item_data  49  test data: title: 要闻, link: https://news.qq.com/
-2026-05-09 08:57:15  INFO  test_nav_item_data  53  导航项 '要闻' 数量: 1
-2026-05-09 08:57:15  INFO  test_nav_item_data  57  导航项 '要闻' 链接: https://news.qq.com/, 期望: https://news.qq.com/
-2026-05-09 08:57:18  INFO  take_screenshot  104  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260509_085715.png

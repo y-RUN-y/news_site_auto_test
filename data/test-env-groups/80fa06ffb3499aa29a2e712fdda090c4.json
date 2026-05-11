@@ -1,1 +1,1 @@
-{"id":"80fa06ffb3499aa29a2e712fdda090c4","fullName":"test_cases.test_search_result_page.TestSearchResultPage#test_click_card_opens_new_tab","name":"验证点击图文卡片打开新标签页","status":"passed","testResultsByEnv":{"default":"0b033e1e46b6ed32913b2e2e7d1ed0d5"}}
+{"id":"80fa06ffb3499aa29a2e712fdda090c4","fullName":"test_cases.test_search_result_page.TestSearchResultPage#test_click_card_opens_new_tab","name":"验证点击图文卡片打开新标签页","status":"passed","testResultsByEnv":{"default":"2c40efebb20f5afc35ca85cfc54c3b36"}}
