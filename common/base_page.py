@@ -89,6 +89,7 @@ class BasePage:
 
     def take_screenshot(self, el: Locator = None, name: str = "screenshot"):
         """截图并保存到 ./screenshots/"""
+        self._page.wait_for_load_state("domcontentloaded", timeout=10000)
         screenshots_dir = project_root / "screenshots"
         screenshots_dir.mkdir(exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
