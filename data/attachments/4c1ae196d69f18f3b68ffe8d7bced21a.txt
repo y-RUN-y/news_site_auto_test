@@ -1,0 +1,5 @@
+2026-05-11 15:03:10  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 15:03:10  DEBUG  test_nav_item_data  49  test data: title: 游戏中心, link: https://news.qq.com/ch/game_center
+2026-05-11 15:03:10  INFO  test_nav_item_data  53  导航项 '游戏中心' 数量: 1
+2026-05-11 15:03:10  INFO  test_nav_item_data  57  导航项 '游戏中心' 链接: https://news.qq.com/ch/game_center, 期望: https://news.qq.com/ch/game_center
+2026-05-11 15:03:12  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_150310.png

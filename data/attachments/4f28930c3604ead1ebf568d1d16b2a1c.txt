@@ -1,0 +1,4 @@
+2026-05-11 15:09:20  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 15:09:22  INFO  test_search_with_keywords  298  搜索 ''; DROP TABLE users;' 后的URL: https://waf.tencent.com/501page.html?u=https://news.qq.com&id=ff3a4eb5268dcbb8676a1166b9f783dc-1776311493126810-461-140067259565824-85406769162448016&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1MjclMjUzQiUyNTIwRFJPUCUyNTIwVEFCTEUlMjUyMHVzZXJzJTI1M0IlMjUyMC0tJTI2cGFnZSUzRDE=
+2026-05-11 15:09:22  INFO  test_search_with_keywords  310  搜索结果页标题: 
+2026-05-11 15:09:22  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_150922.png

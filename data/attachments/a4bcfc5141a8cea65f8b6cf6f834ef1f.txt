@@ -1,0 +1,7 @@
+2026-05-11 15:10:18  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 15:10:23  INFO  test_card_title_and_description  60  卡片 1 - 标题: 世界杯还没开踢，中国球迷先“退票”了
+2026-05-11 15:10:23  INFO  test_card_title_and_description  60  卡片 2 - 标题: 世界杯48强第一家 波黑队公布26人参赛大名单
+2026-05-11 15:10:23  INFO  test_card_title_and_description  60  卡片 3 - 标题: 波黑公布世界杯26人名单：哲科领衔，德米罗维奇、科拉希纳茨在列
+2026-05-11 15:10:23  INFO  test_card_title_and_description  60  卡片 4 - 标题: “专坑中国”，世界杯这回撞墙了
+2026-05-11 15:10:23  INFO  test_card_title_and_description  60  卡片 5 - 标题: 世界杯还有一个月，结果咱们可能没球看？
+2026-05-11 15:10:23  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_151023.png

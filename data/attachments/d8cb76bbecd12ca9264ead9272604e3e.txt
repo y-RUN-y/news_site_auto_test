@@ -1,0 +1,4 @@
+2026-05-11 15:09:09  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 15:09:10  INFO  test_search_with_keywords  298  搜索 'AI技术' 后的URL: https://news.qq.com/search?query=AI%E6%8A%80%E6%9C%AF&page=1
+2026-05-11 15:09:11  INFO  test_search_with_keywords  310  搜索结果页标题: AI技术-搜索
+2026-05-11 15:09:11  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_150911.png
