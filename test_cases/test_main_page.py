@@ -3,10 +3,10 @@ import logging
 import allure
 import pytest
 
-from pages.base_page import BasePage
+from common.base_page import BasePage
+from common.conf_loader import project_root
+from common.csv_reader import CSVReader
 from pages.main_page import MainPage
-from utils.conf_loader import project_root
-from utils.csv_reader import CSVReader
 
 
 @allure.title("打开腾讯新闻首页")
@@ -62,7 +62,8 @@ class TestNavBar:
                 logging.info("导航项无链接, 验证文本为 '更多': %s", text)
                 assert text == "更多"
         allure.attach.file(
-            main_page.take_screenshot(el=item), attachment_type=allure.attachment_type.PNG
+            main_page.take_screenshot(el=item),
+            attachment_type=allure.attachment_type.PNG,
         )
 
     @allure.title("测试导航按钮hover效果")
@@ -147,7 +148,7 @@ class TestNavBar:
                         )
                 except Exception as e:
                     logging.warning("error: %s", e)
-                    newpage.take_screenshot(name='error_screenshot')
+                    newpage.take_screenshot(name="error_screenshot")
                 finally:
                     newpage.close()
 
@@ -178,11 +179,15 @@ class TestNavBar:
         more_items = main_page.locator(main_page.MORE_ITEM).all()
         for item in more_items:
             assert (
-                item.evaluate("el => window.getComputedStyle(el).color") == main_page.BLACK
+                item.evaluate("el => window.getComputedStyle(el).color")
+                == main_page.BLACK
             )
             item.hover()
             main_page.wait_for_timeout()
-            assert item.evaluate("el => window.getComputedStyle(el).color") == main_page.BLUE
+            assert (
+                item.evaluate("el => window.getComputedStyle(el).color")
+                == main_page.BLUE
+            )
 
     @allure.title("测试更多导航按钮弹出面板点击效果")
     @allure.description("验证点击更多菜单下拉项后能在新标签页正确打开对应链接")
@@ -203,7 +208,7 @@ class TestNavBar:
                             main_page.locator(main_page.NAV_ITEM).last.hover()
                             item.click()
                             newpage = BasePage(new_page_info.value)
-                            newpage.wait_for_load_state('networkidle')
+                            newpage.wait_for_load_state("networkidle")
                     with allure.step("验证新页面打开"):
                         logging.debug(
                             "page: title: %s, link: %s",
@@ -219,7 +224,7 @@ class TestNavBar:
                 except Exception as e:
                     logging.warning("error: %s", e)
                     if newpage is not None:
-                        newpage.take_screenshot(name='error_screenshot')
+                        newpage.take_screenshot(name="error_screenshot")
                 finally:
                     if newpage is not None:
                         newpage.close()
@@ -307,6 +312,6 @@ class TestSearch:
                     attachment_type=allure.attachment_type.PNG,
                 )
             except:
-                current_page.take_screenshot('error_screenshot')
+                current_page.take_screenshot("error_screenshot")
             finally:
                 current_page.close()

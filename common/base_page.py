@@ -1,11 +1,11 @@
 import logging
+import typing
 from datetime import datetime
 from typing import Literal, Union
-import typing
 
 from playwright.sync_api import Locator, Page, TimeoutError
 
-from utils.conf_loader import project_root
+from common.conf_loader import project_root
 
 
 class BasePage:
@@ -34,7 +34,9 @@ class BasePage:
         retried_times = 0
         while retried_times <= retry_times:
             try:
-                self._page.goto(url, timeout=self.default_timeout, wait_until='domcontentloaded')
+                self._page.goto(
+                    url, timeout=self.default_timeout, wait_until="domcontentloaded"
+                )
                 logging.info("跳转到：%s", url)
                 return
             except TimeoutError:
@@ -55,8 +57,13 @@ class BasePage:
 
     def wait_for_timeout(self, timeout=50):
         self._page.wait_for_timeout(timeout)
-    
-    def wait_for_load_state(self, state: typing.Optional[Literal["domcontentloaded", "load", "networkidle"]] = None,):
+
+    def wait_for_load_state(
+        self,
+        state: typing.Optional[
+            Literal["domcontentloaded", "load", "networkidle"]
+        ] = None,
+    ):
         self._page.wait_for_load_state()
 
     @property
@@ -71,7 +78,7 @@ class BasePage:
 
     def go_to_iframe_by_name(self, name):
         return self.page.frame(name=name)
-    
+
     def get_response(self, url: str):
         """获取指定URL的响应对象"""
         with self._page.expect_response(

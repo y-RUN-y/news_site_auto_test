@@ -1,4 +1,4 @@
-from pages.base_page import BasePage
+from common.base_page import BasePage
 
 
 class SearchResultPage(BasePage):
@@ -18,7 +18,7 @@ class SearchResultPage(BasePage):
     def img_text_card_is_keyword_blue(self, card) -> bool:
         spans = card.locator(self.ImgTextCard.KEYWORD_SPAN).all()
         for span in spans:
-            if not span.get_attribute('style') == 'color: #37f':
+            if not span.get_attribute("style") == "color: #37f":
                 return False
         return True
 

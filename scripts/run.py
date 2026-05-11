@@ -6,8 +6,8 @@ from pathlib import Path
 project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root))
 
-from utils.conf_loader import config, project_root
-from utils.run_command import run_command
+from common.conf_loader import config, project_root
+from common.run_command import run_command
 
 test_cfg = config["build"]
 allure_cfg = config["allure"]
@@ -40,7 +40,7 @@ def main():
         pytest_cmd.extend(args.test_path)
     if args.marker:
         pytest_cmd.extend(["-m", args.marker])
-    
+
     run_command(pytest_cmd)
 
     if allure_cfg["enable"]:

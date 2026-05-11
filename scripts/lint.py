@@ -1,8 +1,11 @@
 import subprocess
+import sys
 import tomllib
 from pathlib import Path
 
-project_root = Path(__file__).parent
+# 将项目根目录添加到 Python 路径
+project_root = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(project_root))
 
 
 def run_lint():
@@ -13,9 +16,13 @@ def run_lint():
     autoflake_cfg = config.get("tool", {}).get("autoflake", {})
 
     cmd = ["autoflake"]
+    exclude = list(autoflake_cfg.get("exclude", []))
+    if ".pixi" not in exclude:
+        exclude.append(".pixi")
+    cmd.append(f"--exclude={','.join(exclude)}")
     for key, value in autoflake_cfg.items():
-        if key == "exclude" and isinstance(value, list):
-            cmd.append(f"--exclude={','.join(value)}")
+        if key == "exclude":
+            continue
         elif value is True:
             cmd.append(f"--{key.replace('_', '-')}")
         elif value is not False:
@@ -27,8 +34,8 @@ def run_lint():
     print(f"Running: {' '.join(cmd)}")
     subprocess.run(cmd)
 
-    subprocess.run(["black", "."])
-    subprocess.run(["isort", "."])
+    subprocess.run(["black", ".", "--exclude", ".pixi"])
+    subprocess.run(["isort", ".", "-s", ".pixi"])
 
 
 if __name__ == "__main__":
