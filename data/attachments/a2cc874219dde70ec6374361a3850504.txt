@@ -1,0 +1,5 @@
+2026-05-11 09:45:54  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 09:45:54  DEBUG  test_nav_item_data  49  test data: title: NBA, link: https://sports.qq.com/nba/index.shtml?from=qqnews
+2026-05-11 09:45:54  INFO  test_nav_item_data  53  导航项 'NBA' 数量: 1
+2026-05-11 09:45:54  INFO  test_nav_item_data  57  导航项 'NBA' 链接: https://sports.qq.com/nba/index.shtml?from=qqnews, 期望: https://sports.qq.com/nba/index.shtml?from=qqnews
+2026-05-11 09:45:56  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_094554.png

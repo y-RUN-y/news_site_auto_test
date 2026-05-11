@@ -1,1 +1,1 @@
-{"id":"030745b9487c5ee826d9862daabf6320","fullName":"test_cases.test_search_result_page.TestSearchResultPage#test_result_page_has_cards","name":"验证搜索结果页包含图文卡片","status":"passed","testResultsByEnv":{"default":"7b180855502efd34a88923e961934438"}}
+{"id":"030745b9487c5ee826d9862daabf6320","fullName":"test_cases.test_search_result_page.TestSearchResultPage#test_result_page_has_cards","name":"验证搜索结果页包含图文卡片","status":"passed","testResultsByEnv":{"default":"46845966b5c529533e4141fa80360665"}}

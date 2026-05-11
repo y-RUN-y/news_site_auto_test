@@ -1,0 +1,7 @@
+2026-05-11 09:52:34  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 09:52:40  INFO  test_card_title_and_description  60  卡片 1 - 标题: 全球产业链加速重构，AI技术如何影响中欧产业重构与合作？
+2026-05-11 09:52:40  INFO  test_card_title_and_description  60  卡片 2 - 标题: AI技术那么成熟，美国为啥不靠无人工厂实现制造业回流
+2026-05-11 09:52:40  INFO  test_card_title_and_description  60  卡片 3 - 标题: 再登国际肿瘤学顶刊：这项AI技术，真的能救命
+2026-05-11 09:52:40  INFO  test_card_title_and_description  60  卡片 4 - 标题: 不装了摊牌了！索尼：所有游戏全部启用AI技术
+2026-05-11 09:52:40  INFO  test_card_title_and_description  60  卡片 5 - 标题: AI技术助力武警反恐演练
+2026-05-11 09:52:40  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_095240.png

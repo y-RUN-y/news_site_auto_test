@@ -1,3 +1,0 @@
-2026-05-11 09:18:53  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 09:18:54  INFO  test_search_with_keywords  298  搜索 '' OR '1'='1' 后的URL: https://news.qq.com/search?query=%27%20OR%20%271%27%3D%271&page=1
-2026-05-11 09:18:54  INFO  test_search_with_keywords  306  搜索结果页标题: Loading https://waf.tencent.com/501page.html?u=https://news.qq.com&id=0ced17fc9ca4e524d3dda2a98e4a33f0-1776310599625054-454-140101452875520-88794624382061378&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1MjclMjUyME9SJTI1MjAlMjUyNzElMjUyNyUyNTNEJTI1MjcxJTI2cGFnZSUzRDE=

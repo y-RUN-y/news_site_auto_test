@@ -1,0 +1,5 @@
+2026-05-11 09:46:07  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 09:46:07  DEBUG  test_nav_item_data  49  test data: title: 科学, link: https://news.qq.com/ch/kepu/
+2026-05-11 09:46:07  INFO  test_nav_item_data  53  导航项 '科学' 数量: 1
+2026-05-11 09:46:07  INFO  test_nav_item_data  57  导航项 '科学' 链接: https://news.qq.com/ch/kepu/, 期望: https://news.qq.com/ch/kepu/
+2026-05-11 09:46:09  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_094607.png
