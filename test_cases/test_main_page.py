@@ -119,6 +119,7 @@ class TestNavBar:
     def test_nav_item_click(self, context, page):
         main_page = MainPage(page)
         main_page.go_main_page()
+        newpage = None
         items = main_page.locator(main_page.NAV_ITEM).locator(main_page.NAV_LINK).all()
         for item in items:
             href = item.get_attribute("href")
@@ -126,11 +127,10 @@ class TestNavBar:
                 try:
                     with allure.step(f"点击导航项 '{item.text_content()}'"):
                         item.click()
+                        main_page.wait_for_timeout(1000)
                     with allure.step("验证新页面打开"):
                         assert len(context.pages) == 2
-                        newpage = BasePage(
-                            [p for p in context.pages if p != main_page.page][0]
-                        )
+                        newpage = BasePage(context.pages[-1])
                         logging.debug(
                             "page: title: %s, link: %s",
                             newpage.get_title(),
@@ -165,7 +165,7 @@ class TestNavBar:
         main_page.wait_for_timeout()
         assert more_items.first.is_visible() == True
         main_page.mouse.move(0, 0)
-        main_page.wait_for_timeout()
+        main_page.wait_for_timeout(500)
         assert more_items.first.is_visible() == False
 
     @allure.title("测试更多导航按钮弹出面板hover效果")
@@ -291,6 +291,7 @@ class TestSearch:
         with allure.step(f"输入搜索词 '{keyword[:20]}...' 并点击搜索"):
             main_page.locator(main_page.INPUT_BOX).fill(keyword)
             main_page.locator(main_page.SEARCH_BTN).click()
+            main_page.wait_for_timeout(1000)
         with allure.step("验证页面行为"):
             current_page = BasePage(context.pages[-1])
             current_url = current_page.get_url()
@@ -312,6 +313,6 @@ class TestSearch:
                     attachment_type=allure.attachment_type.PNG,
                 )
             except:
-                current_page.take_screenshot("error_screenshot")
+                current_page.take_screenshot(name="error_screenshot")
             finally:
                 current_page.close()
