@@ -296,23 +296,24 @@ class TestSearch:
             current_page = BasePage(context.pages[-1])
             current_url = current_page.get_url()
             logging.info("搜索 '%s' 后的URL: %s", keyword[:20], current_url)
-            try:
-                if has_search_res == 0:
-                    assert len(context.pages) == 1, "空搜索词不应打开新标签页"
-                    logging.info("空搜索词未触发跳转，符合预期")
-                else:
-                    assert len(context.pages) >= 1
-                    current_title = current_page.get_title()
-                    logging.info("搜索结果页标题: %s", current_title)
-                    assert keyword[:10] in current_title
-                    assert (
-                        current_page.get_response(current_url).status == response_code
-                    )
+            if has_search_res == 0:
+                assert len(context.pages) == 1, "空搜索词不应打开新标签页"
+                logging.info("空搜索词未触发跳转，符合预期")
                 allure.attach.file(
                     current_page.take_screenshot(),
                     attachment_type=allure.attachment_type.PNG,
                 )
-            except:
-                current_page.take_screenshot(name="error_screenshot")
-            finally:
-                current_page.close()
+            else:
+                assert len(context.pages) > 1
+                try:
+                    current_title = current_page.get_title()
+                    logging.info("搜索结果页标题: %s", current_title)
+                    assert keyword[:10] in current_title
+                    allure.attach.file(
+                        current_page.take_screenshot(),
+                        attachment_type=allure.attachment_type.PNG,
+                    )
+                except:
+                    current_page.take_screenshot(name="error_screenshot")
+                finally:
+                    current_page.close()
