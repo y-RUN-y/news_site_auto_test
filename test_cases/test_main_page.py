@@ -127,7 +127,7 @@ class TestNavBar:
                 try:
                     with allure.step(f"点击导航项 '{item.text_content()}'"):
                         item.click()
-                        main_page.wait_for_timeout(1000)
+                        main_page.wait_for_timeout(3000)
                     with allure.step("验证新页面打开"):
                         assert len(context.pages) == 2
                         newpage = BasePage(context.pages[-1])
@@ -207,8 +207,8 @@ class TestNavBar:
                         with context.expect_page() as new_page_info:
                             main_page.locator(main_page.NAV_ITEM).last.hover()
                             item.click()
+                            main_page.wait_for_timeout(3000)
                             newpage = BasePage(new_page_info.value)
-                            newpage.wait_for_load_state("networkidle")
                     with allure.step("验证新页面打开"):
                         logging.debug(
                             "page: title: %s, link: %s",
