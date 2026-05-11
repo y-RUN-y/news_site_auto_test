@@ -1,4 +1,0 @@
-2026-05-11 09:51:34  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 09:51:36  INFO  test_search_with_keywords  298  搜索 '腾讯新闻' 后的URL: https://news.qq.com/search?query=%E8%85%BE%E8%AE%AF%E6%96%B0%E9%97%BB&page=1
-2026-05-11 09:51:36  INFO  test_search_with_keywords  306  搜索结果页标题: 腾讯新闻-搜索
-2026-05-11 09:51:38  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_095138.png
