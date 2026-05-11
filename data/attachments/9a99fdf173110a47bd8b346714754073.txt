@@ -1,0 +1,4 @@
+2026-05-11 14:23:30  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 14:23:30  DEBUG  test_nav_item_data  49  test data: title: 科技, link: https://news.qq.com/ch/tech/
+2026-05-11 14:23:30  INFO  test_nav_item_data  53  导航项 '科技' 数量: 1
+2026-05-11 14:23:30  INFO  test_nav_item_data  57  导航项 '科技' 链接: https://news.qq.com/ch/tech/, 期望: https://news.qq.com/ch/tech/

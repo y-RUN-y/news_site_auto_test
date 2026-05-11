@@ -1,0 +1,4 @@
+2026-05-11 14:29:27  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 14:29:28  INFO  test_search_with_keywords  298  搜索 '😀🔥🎉' 后的URL: https://news.qq.com/search?query=%F0%9F%98%80%F0%9F%94%A5%F0%9F%8E%89&page=1
+2026-05-11 14:29:28  INFO  test_search_with_keywords  310  搜索结果页标题: 😀🔥🎉-搜索
+2026-05-11 14:29:28  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_142928.png

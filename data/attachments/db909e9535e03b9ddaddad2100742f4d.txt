@@ -1,0 +1,3 @@
+2026-05-11 14:30:29  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 14:30:36  INFO  test_click_card_opens_new_tab  114  新页面URL: https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HAvoAWqjFDSaTKNaronusVgAZz-AsLnj-MzZsodX&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMjM5NzM2NjUzNg%3D%3D%26mid%3D2247675070%26idx%3D1%26sn%3D7614a3d5573f9422db9c1ec67321f40a%26chksm%3Da7c6556000014e4a95da281e4b0a496624d9bbf7cd5fa7b72a198dc2ba66ad04b2c34fd93b02%263rd%3DMjM5NzM2NjUzNg%3D%3D%26scene%3D8#rd, 标题: 
+2026-05-11 14:30:37  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_143037.png

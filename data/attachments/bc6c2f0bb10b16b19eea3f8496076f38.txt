@@ -1,0 +1,3 @@
+2026-05-11 14:30:48  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 14:30:56  INFO  test_click_card_opens_new_tab  114  新页面URL: https://news.qq.com/rain/a/20260511A08JGD00, 标题: 世界杯48强第一家 波黑队公布26人参赛大名单_腾讯新闻
+2026-05-11 14:30:59  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_143056.png
