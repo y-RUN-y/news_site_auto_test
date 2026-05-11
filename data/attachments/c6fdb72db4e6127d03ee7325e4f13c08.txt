@@ -1,3 +1,0 @@
-2026-05-11 08:17:05  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 08:17:12  INFO  test_click_card_opens_new_tab  114  新页面URL: https://news.qq.com/rain/a/20260511A03OVB00, 标题: 世界杯还有一个月，结果咱们可能没球看？_腾讯新闻
-2026-05-11 08:17:13  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_081712.png

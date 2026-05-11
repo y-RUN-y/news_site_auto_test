@@ -1,0 +1,62 @@
+2026-05-11 09:15:41  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-11 09:15:43  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/
+2026-05-11 09:15:43  WARNING  test_nav_item_click  150  error: assert '要闻' in '腾讯网'
+ +  where '要闻' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=0'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b3706ca40>.get_title
+2026-05-11 09:15:45  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091543.png
+2026-05-11 09:15:46  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/tech/
+2026-05-11 09:15:46  WARNING  test_nav_item_click  150  error: assert '科技' in '腾讯网'
+ +  where '科技' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=1'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b36fc4590>.get_title
+2026-05-11 09:15:46  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091546.png
+2026-05-11 09:15:47  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/finance/
+2026-05-11 09:15:47  WARNING  test_nav_item_click  150  error: assert '财经' in '腾讯网'
+ +  where '财经' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=2'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b37087680>.get_title
+2026-05-11 09:15:48  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091547.png
+2026-05-11 09:15:49  DEBUG  test_nav_item_click  134  page: title: 腾讯网-国际, link: https://news.qq.com/ch/world/
+2026-05-11 09:15:50  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_091549.png
+2026-05-11 09:15:51  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/milite/
+2026-05-11 09:15:51  WARNING  test_nav_item_click  150  error: assert '军事' in '腾讯网'
+ +  where '军事' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=4'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b37086f30>.get_title
+2026-05-11 09:15:52  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091551.png
+2026-05-11 09:15:53  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/qa
+2026-05-11 09:15:53  WARNING  test_nav_item_click  150  error: assert '热问' in '腾讯网'
+ +  where '热问' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=5'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b3710e4b0>.get_title
+2026-05-11 09:15:53  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091553.png
+2026-05-11 09:15:54  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/edu/
+2026-05-11 09:15:54  WARNING  test_nav_item_click  150  error: assert '教育' in '腾讯网'
+ +  where '教育' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=6'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b3558dd00>.get_title
+2026-05-11 09:15:55  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091554.png
+2026-05-11 09:15:56  DEBUG  test_nav_item_click  134  page: title: 腾讯网, link: https://news.qq.com/ch/ent/
+2026-05-11 09:15:56  WARNING  test_nav_item_click  150  error: assert '娱乐' in '腾讯网'
+ +  where '娱乐' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=7'>.text_content
+ +  and   '腾讯网' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b3558da00>.get_title
+2026-05-11 09:16:01  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091556.png
+2026-05-11 09:16:02  DEBUG  test_nav_item_click  134  page: title: , link: https://v.qq.com/channel/tv/?ptag=qqnews
+2026-05-11 09:16:02  WARNING  test_nav_item_click  150  error: assert '电视剧' in ''
+ +  where '电视剧' = text_content()
+ +    where text_content = <Locator frame=<Frame name= url='https://www.qq.com/'> selector='.nav-item >> .nav-link >> nth=8'>.text_content
+ +  and   '' = get_title()
+ +    where get_title = <common.base_page.BasePage object at 0x7f5b3710fe60>.get_title
+2026-05-11 09:16:08  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_091602.png
+2026-05-11 09:16:09  WARNING  test_nav_item_click  150  error: assert 1 == 2
+ +  where 1 = len([<Page url='https://www.qq.com/'>])
+ +    where [<Page url='https://www.qq.com/'>] = <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/home/runner/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome> version=147.0.7727.15>>.pages

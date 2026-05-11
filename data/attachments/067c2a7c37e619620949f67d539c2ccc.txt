@@ -1,7 +1,0 @@
-2026-05-11 08:16:05  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 08:16:11  INFO  test_card_title_and_description  60  卡片 1 - 标题: 腾讯新闻出品《我有个医生朋友 | 科学减重，“肝”掉脂肪》 持续热播！
-2026-05-11 08:16:11  INFO  test_card_title_and_description  60  卡片 2 - 标题: 新闻还能这样听？腾讯新闻首发AI互动电台来了！
-2026-05-11 08:16:11  INFO  test_card_title_and_description  60  卡片 3 - 标题: 有幸入选腾讯新闻“2026我的独家春节记忆”活动作品，感谢一路上各位大佬的支持与指导！
-2026-05-11 08:16:11  INFO  test_card_title_and_description  60  卡片 4 - 标题: 等等，新闻还能这样听？——派派最近通勤就靠它了！
-2026-05-11 08:16:11  INFO  test_card_title_and_description  60  卡片 5 - 标题: 母亲之前：她的人生，还有另一种落款
-2026-05-11 08:16:11  INFO  take_screenshot  111  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_081611.png
