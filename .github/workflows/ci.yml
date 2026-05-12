@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Install Chinese fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
       - name: Install pixi
         run: |
           curl -fsSL https://pixi.sh/install.sh | sh
