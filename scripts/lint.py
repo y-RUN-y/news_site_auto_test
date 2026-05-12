@@ -32,10 +32,10 @@ def run_lint():
 
     cmd.append(".")
     print(f"Running: {' '.join(cmd)}")
-    subprocess.run(cmd)
+    subprocess.run(cmd, shell=True)
 
-    subprocess.run(["black", ".", "--exclude", ".pixi"])
-    subprocess.run(["isort", ".", "-s", ".pixi"])
+    subprocess.run(["black", ".", "--exclude", ".pixi"], shell=True)
+    subprocess.run(["isort", ".", "-s", ".pixi"], shell=True)
 
 
 if __name__ == "__main__":

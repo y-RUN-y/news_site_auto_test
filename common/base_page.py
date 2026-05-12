@@ -94,7 +94,7 @@ class BasePage:
         screenshots_dir.mkdir(exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         path = str(screenshots_dir / f"{name}_{timestamp}.png")
-        if el is not None:
+        if el is Locator:
             # 若存在定位器，则对组件所在区域截图
             el.scroll_into_view_if_needed()
             box = el.bounding_box()

@@ -1,8 +1,8 @@
 [workspace]
 authors = ["希望能学会 <2080554836@qq.com>"]
 channels = ["conda-forge"]
-description = "腾讯新闻网页版自动化测试框架"
-name = "tencent-news-web-test"
+description = "新闻网站自动化测试工具"
+name = "news-site-web-test"
 platforms = ["win-64", "linux-64"]
 version = "0.1.0"
 
@@ -20,6 +20,7 @@ isort = ">=8.0.1,<9.0.0"
 playwright = ">=1.58.0,<2.0.0"
 pytest = ">=9.0.3,<10.0.0"
 tomli = ">=2.0.0,<3.0.0"
+pytest-playwright = ">=0.7.0,<0.8.0"
 
 [tasks]
 clean = "python scripts/clean.py"
@@ -31,11 +32,6 @@ test = "python scripts/run.py -m inprogress"
 [activation]
 scripts = []
 
-# playwright启动配置
-[tool.playwright]
-launch_options = {headless = true, timeout = 5000, args = ["--font-render-hinting=none"]} 
-platform = "" # 测试平台：chromium、firefox、webkit，默认chromium
-
 # autoflake配置
 [tool.autoflake]
 exclude = [".git", "__pycache__", ".vscode", "report", "data", ".log", ".md"]
@@ -45,11 +41,6 @@ in-place = true
 recursive = true
 remove-all-unused-imports = true
 remove-unused-variables = true
-
-# 项目构建配置
-[tool.build]
-black = false
-isort = false
 
 # allure配置
 [tool.allure]

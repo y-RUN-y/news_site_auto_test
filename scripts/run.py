@@ -9,7 +9,6 @@ sys.path.insert(0, str(project_root))
 from common.conf_loader import config, project_root
 from common.run_command import run_command
 
-test_cfg = config["build"]
 allure_cfg = config["allure"]
 
 

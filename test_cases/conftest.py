@@ -1,36 +1,5 @@
 import allure
 import pytest
-from playwright.sync_api import Browser, BrowserContext, sync_playwright
-
-from common.base_page import BasePage
-from common.conf_loader import config
-
-pwcfg = config["playwright"]
-
-
-@pytest.fixture(scope="session")
-def browser():
-    with sync_playwright() as p:
-        if pwcfg["platform"] == "webkit":
-            browser = p.webkit.launch(**pwcfg["launch_options"])
-        elif pwcfg["platform"] == "firefox":
-            browser = p.firefox.launch(**pwcfg["launch_options"])
-        else:
-            browser = p.chromium.launch(**pwcfg["launch_options"])
-        yield browser
-        browser.close()
-
-
-@pytest.fixture(scope="class")
-def context(browser: Browser):
-    with browser.new_context() as context:
-        yield context
-
-
-@pytest.fixture(scope="function")
-def page(context: BrowserContext):
-    with BasePage(context.new_page()) as page:
-        yield page
 
 
 @pytest.hookimpl(hookwrapper=True)
