@@ -1,5 +1,0 @@
-2026-05-12 01:35:16  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:35:28  INFO  test_result_page_has_cards  36  搜索 '腾讯新闻' 找到 0 个图文卡片
-2026-05-12 01:35:33  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:35:43  INFO  test_result_page_has_cards  36  搜索 '腾讯新闻' 找到 10 个图文卡片
-2026-05-12 01:35:43  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_013543.png

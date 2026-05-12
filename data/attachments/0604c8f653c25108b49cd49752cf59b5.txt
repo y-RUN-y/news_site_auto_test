@@ -1,7 +1,0 @@
-2026-05-12 01:32:48  DEBUG  __init__  64  Using selector: EpollSelector
-2026-05-12 01:32:57  DEBUG  __init__  64  Using selector: EpollSelector
-2026-05-12 01:33:00  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:33:00  DEBUG  test_nav_item_data  49  test data: title: 电视剧, link: https://v.qq.com/channel/tv/?ptag=qqnews
-2026-05-12 01:33:01  INFO  test_nav_item_data  53  导航项 '电视剧' 数量: 1
-2026-05-12 01:33:01  INFO  test_nav_item_data  57  导航项 '电视剧' 链接: https://v.qq.com/channel/tv/?ptag=qqnews, 期望: https://v.qq.com/channel/tv/?ptag=qqnews
-2026-05-12 01:33:06  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_013301.png

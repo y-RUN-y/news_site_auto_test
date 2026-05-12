@@ -1,1 +1,1 @@
-{"id":"7ad5f1954257490e6c93ff3886b4e05a","fullName":"test_cases.test_main_page.TestNavBar#test_nav_item_data","name":"测试导航按钮文本、链接是否正确","status":"broken","testResultsByEnv":{"default":"6a4907836264697f4d7a7ebfc98b0841"}}
+{"id":"7ad5f1954257490e6c93ff3886b4e05a","fullName":"test_cases.test_main_page.TestNavBar#test_nav_item_data","name":"测试导航按钮文本、链接是否正确","status":"passed","testResultsByEnv":{"default":"6d376432a25bccf5ecda77ca6a537351"}}
