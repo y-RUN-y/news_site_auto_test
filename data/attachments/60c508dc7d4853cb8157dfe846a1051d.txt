@@ -1,0 +1,66 @@
+2026-05-12 01:09:51  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:09:57  DEBUG  test_more_nav_item_click  213  page: title: 视频频道-腾讯网, link: https://news.qq.com/ch/video
+2026-05-12 01:09:59  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_010957.png
+2026-05-12 01:10:02  DEBUG  test_more_nav_item_click  213  page: title: 洛克王国：世界首发上线, link: https://h5.ssp.qq.com/lps/production/material/202603/6dd252bca51bce32c00af4e0b56aecba.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-12 01:10:03  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011002.png
+2026-05-12 01:10:08  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-数码, link: https://news.qq.com/ch/digi/
+2026-05-12 01:10:10  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011008.png
+2026-05-12 01:10:14  DEBUG  test_more_nav_item_click  213  page: title: 综艺 腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看, link: https://v.qq.com/channel/variety/?ptag=qqnews
+2026-05-12 01:10:16  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011015.png
+2026-05-12 01:10:21  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-眼界, link: https://news.qq.com/ch/chupin/
+2026-05-12 01:10:22  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011021.png
+2026-05-12 01:10:26  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-足球, link: https://news.qq.com/ch/football
+2026-05-12 01:10:29  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011027.png
+2026-05-12 01:10:32  DEBUG  test_more_nav_item_click  213  page: title: 逆战未来正式上线, link: https://h5.ssp.qq.com/lps/production/material/202601/224b4c86d909350257adae3d7d28d527.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-12 01:10:33  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011032.png
+2026-05-12 01:10:37  DEBUG  test_more_nav_item_click  213  page: title: 电影频道-最新热门电影大全-高清正版在线观看-腾讯视频, link: https://v.qq.com/channel/movie/?ptag=qqnews
+2026-05-12 01:10:45  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011039.png
+2026-05-12 01:10:49  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-电竞, link: https://news.qq.com/ch/esport
+2026-05-12 01:10:55  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011049.png
+2026-05-12 01:10:59  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-历史, link: https://news.qq.com/ch/history/
+2026-05-12 01:11:00  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011059.png
+2026-05-12 01:11:04  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-育儿, link: https://news.qq.com/ch/baby/
+2026-05-12 01:11:07  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011105.png
+2026-05-12 01:11:10  DEBUG  test_more_nav_item_click  213  page: title: 腾讯先锋-腾讯官方云游戏平台—原腾讯先游, link: https://gamer.qq.com/?ichannel=txxwpc0Ftxxwpc1
+2026-05-12 01:11:11  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011110.png
+2026-05-12 01:11:15  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-理财, link: https://news.qq.com/ch/finance_licai/
+2026-05-12 01:11:17  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011116.png
+2026-05-12 01:11:21  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-股票, link: https://news.qq.com/ch/finance_stock/
+2026-05-12 01:11:24  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011122.png
+2026-05-12 01:11:27  DEBUG  test_more_nav_item_click  213  page: title: 腾讯天气, link: https://tianqi.qq.com/index.htm
+2026-05-12 01:11:57  WARNING  test_more_nav_item_click  225  error: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+2026-05-12 01:12:31  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:12:35  DEBUG  test_more_nav_item_click  213  page: title: 视频频道-腾讯网, link: https://news.qq.com/ch/video
+2026-05-12 01:12:35  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011235.png
+2026-05-12 01:12:38  DEBUG  test_more_nav_item_click  213  page: title: 洛克王国：世界首发上线, link: https://h5.ssp.qq.com/lps/production/material/202603/6dd252bca51bce32c00af4e0b56aecba.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-12 01:12:38  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011238.png
+2026-05-12 01:12:41  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-数码, link: https://news.qq.com/ch/digi/
+2026-05-12 01:12:42  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011241.png
+2026-05-12 01:12:45  DEBUG  test_more_nav_item_click  213  page: title: 综艺 腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看, link: https://v.qq.com/channel/variety/?ptag=qqnews
+2026-05-12 01:12:48  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011245.png
+2026-05-12 01:12:51  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-眼界, link: https://news.qq.com/ch/chupin/
+2026-05-12 01:12:51  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011251.png
+2026-05-12 01:12:55  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-足球, link: https://news.qq.com/ch/football
+2026-05-12 01:12:55  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011255.png
+2026-05-12 01:12:58  DEBUG  test_more_nav_item_click  213  page: title: 逆战未来正式上线, link: https://h5.ssp.qq.com/lps/production/material/202601/224b4c86d909350257adae3d7d28d527.html?sourceType=2&channelIndex=2&hidecode=1&isPCPage=1
+2026-05-12 01:12:58  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011258.png
+2026-05-12 01:13:02  DEBUG  test_more_nav_item_click  213  page: title: 电影 腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看, link: https://v.qq.com/channel/movie/?ptag=qqnews
+2026-05-12 01:13:03  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011302.png
+2026-05-12 01:13:06  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-电竞, link: https://news.qq.com/ch/esport
+2026-05-12 01:13:06  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011306.png
+2026-05-12 01:13:09  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-历史, link: https://news.qq.com/ch/history/
+2026-05-12 01:13:09  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011309.png
+2026-05-12 01:13:12  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-育儿, link: https://news.qq.com/ch/baby/
+2026-05-12 01:13:13  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011312.png
+2026-05-12 01:13:16  DEBUG  test_more_nav_item_click  213  page: title: 腾讯先锋-腾讯官方云游戏平台—原腾讯先游, link: https://gamer.qq.com/?ichannel=txxwpc0Ftxxwpc1
+2026-05-12 01:13:16  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011316.png
+2026-05-12 01:13:19  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-理财, link: https://news.qq.com/ch/finance_licai/
+2026-05-12 01:13:19  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011319.png
+2026-05-12 01:13:22  DEBUG  test_more_nav_item_click  213  page: title: 腾讯网-股票, link: https://news.qq.com/ch/finance_stock/
+2026-05-12 01:13:23  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011322.png
+2026-05-12 01:13:26  DEBUG  test_more_nav_item_click  213  page: title: 腾讯天气, link: https://tianqi.qq.com/index.htm
+2026-05-12 01:13:41  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011326.png
+2026-05-12 01:14:12  WARNING  test_more_nav_item_click  225  error: Timeout 30000ms exceeded while waiting for event "page"

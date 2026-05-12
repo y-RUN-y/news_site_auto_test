@@ -1,3 +1,0 @@
-2026-05-12 01:02:07  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:02:16  INFO  test_click_card_opens_new_tab  114  新页面URL: https://news.qq.com/rain/a/20260512A0220S00, 标题: 国家报：世界杯门票及交通费暴涨，已引发美国社会各界不满_腾讯新闻
-2026-05-12 01:02:17  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_010216.png

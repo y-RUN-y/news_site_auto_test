@@ -1,0 +1,3 @@
+2026-05-12 01:12:04  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:12:13  INFO  test_click_card_opens_new_tab  114  新页面URL: https://h5.news.qq.com/qqfile/guopingchampionship/sporth5.html, 标题: 长图回忆丨国乒百年世乒赛荣耀征程
+2026-05-12 01:12:13  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011213.png

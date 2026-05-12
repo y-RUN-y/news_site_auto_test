@@ -1,4 +1,0 @@
-2026-05-12 00:58:08  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 00:58:08  DEBUG  test_nav_item_data  49  test data: title: 王者世界, link: https://h5.ssp.qq.com/lps/production/material/202604/d15e16c3cfcb74cef608ae0dc1a12657.html?sourceType=2&channelIndex=2&oid=82026041034&hidecode=1&isPCPage=1
-2026-05-12 00:58:09  INFO  test_nav_item_data  53  导航项 '王者世界' 数量: 1
-2026-05-12 00:58:09  INFO  test_nav_item_data  57  导航项 '王者世界' 链接: https://h5.ssp.qq.com/lps/production/material/202604/d15e16c3cfcb74cef608ae0dc1a12657.html?sourceType=2&channelIndex=2&oid=82026041034&hidecode=1&isPCPage=1, 期望: https://h5.ssp.qq.com/lps/production/material/202604/d15e16c3cfcb74cef608ae0dc1a12657.html?sourceType=2&channelIndex=2&oid=82026041034&hidecode=1&isPCPage=1
