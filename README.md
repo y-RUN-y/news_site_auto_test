@@ -1,6 +1,20 @@
-# 腾讯新闻网页版自动化测试框架
+# 新闻网站自动化测试工具
 
-基于 Python + pytest + Playwright 构建的端到端自动化测试框架，采用页面对象模型（POM）设计，支持数据驱动测试、失败截图重试和 Allure 可视化报告。
+基于 Python + pytest + Playwright 构建的端到端自动化测试工具，采用页面对象模型（POM）设计，支持数据驱动测试、失败截图重试和 Allure 可视化报告。
+
+---
+
+## 免责声明
+
+本项目仅供**学习与研究**目的，不涉及任何商业用途。
+
+- 本项目**未获得**任何新闻网站的授权
+- 本项目**不**用于任何商业或盈利活动
+- 使用本项目时，请遵守相关网站的服务条款和robots.txt规定
+- 禁止利用本项目进行任何可能对目标网站造成负担或损害的行为
+- 开发者不对任何滥用本项目的行为承担法律责任
+
+如有任何侵权问题，请联系删除。
 
 ## 技术栈
 
@@ -19,7 +33,7 @@
 ## 项目结构
 
 ```
-tencent_news_web_test/
+news_site_auto_test/
 ├── common/                          # 公共模块
 │   ├── __init__.py
 │   ├── base_page.py                 # 基础页面类（导航、截图、元素定位、重试机制）
@@ -149,8 +163,6 @@ platform = ""  # 可选 chromium / firefox / webkit，默认 chromium
 5. 部署到 GitHub Pages
 
 触发方式：`workflow_dispatch`（手动）、push、PR。
-
-在线报告：`https://y-run-y.github.io/tencent_news_web_test/`
 
 ## 代码规范
 
