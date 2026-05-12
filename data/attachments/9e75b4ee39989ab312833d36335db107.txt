@@ -1,0 +1,6 @@
+2026-05-12 08:34:45  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:34:45  DEBUG  test_nav_item_data  49  test data: title: 更多, link: None
+2026-05-12 08:34:45  INFO  test_nav_item_data  53  导航项 '更多' 数量: 1
+2026-05-12 08:34:45  INFO  test_nav_item_data  57  导航项 '更多' 链接: None, 期望: None
+2026-05-12 08:34:46  INFO  test_nav_item_data  62  导航项无链接, 验证文本为 '更多': 更多
+2026-05-12 08:34:49  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083446.png

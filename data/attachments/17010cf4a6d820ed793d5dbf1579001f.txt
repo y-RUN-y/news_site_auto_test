@@ -1,0 +1,20 @@
+2026-05-12 08:31:09  DEBUG  __init__  64  Using selector: EpollSelector
+2026-05-12 08:31:14  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:31:23  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083122.png
+2026-05-12 08:31:30  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083129.png
+2026-05-12 08:31:34  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083134.png
+2026-05-12 08:31:43  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083142.png
+2026-05-12 08:31:51  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083150.png
+2026-05-12 08:31:55  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083155.png
+2026-05-12 08:31:59  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083158.png
+2026-05-12 08:32:05  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083205.png
+2026-05-12 08:32:22  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083221.png
+2026-05-12 08:32:32  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083232.png
+2026-05-12 08:32:43  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083243.png
+2026-05-12 08:32:50  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083249.png
+2026-05-12 08:32:56  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083256.png
+2026-05-12 08:33:01  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083301.png
+2026-05-12 08:33:04  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083304.png
+2026-05-12 08:33:06  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083306.png
+2026-05-12 08:33:09  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083308.png
+2026-05-12 08:33:12  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083311.png

@@ -1,0 +1,4 @@
+2026-05-12 08:40:41  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:40:44  INFO  test_search_suggestions_appear  274  搜索提示项数量: 12
+2026-05-12 08:40:44  INFO  test_search_suggestions_appear  281  第一个搜索提示: 腾讯新闻越过山丘
+2026-05-12 08:40:45  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_084044.png

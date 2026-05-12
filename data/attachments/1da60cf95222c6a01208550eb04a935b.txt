@@ -1,0 +1,4 @@
+2026-05-12 08:31:09  DEBUG  __init__  64  Using selector: EpollSelector
+2026-05-12 08:31:14  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:31:21  INFO  test_result_page_has_cards  36  搜索 '腾讯新闻' 找到 10 个图文卡片
+2026-05-12 08:31:21  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083121.png

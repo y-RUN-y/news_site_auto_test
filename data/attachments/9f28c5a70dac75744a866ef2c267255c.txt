@@ -1,0 +1,4 @@
+2026-05-12 08:32:46  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:32:50  INFO  test_search_suggestions_appear  274  搜索提示项数量: 10
+2026-05-12 08:32:50  INFO  test_search_suggestions_appear  281  第一个搜索提示: apple
+2026-05-12 08:33:18  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083250.png

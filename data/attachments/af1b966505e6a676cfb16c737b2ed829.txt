@@ -1,0 +1,7 @@
+2026-05-12 08:32:51  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:32:57  INFO  test_card_title_and_description  60  卡片 1 - 标题: 世界杯将至，伊朗队仍在等待入境美国
+2026-05-12 08:32:57  INFO  test_card_title_and_description  60  卡片 2 - 标题: 世界杯已“烂尾”，央视不鸟它3亿天价转播费，它居然关停中文网
+2026-05-12 08:32:57  INFO  test_card_title_and_description  60  卡片 3 - 标题: 巴媒预测世界杯55人名单：维尼修斯领衔，弟媳、内马尔在列
+2026-05-12 08:32:57  INFO  test_card_title_and_description  60  卡片 4 - 标题: 卫报：世界杯门票卖到3.3万美元？这简直荒唐至极，是对足球的背叛
+2026-05-12 08:32:57  INFO  test_card_title_and_description  60  卡片 5 - 标题: 世界杯转播权开天价！多组数据读懂FIFA“生意经”
+2026-05-12 08:32:57  INFO  take_screenshot  112  已截图：/home/runner/work/news_site_auto_test/news_site_auto_test/screenshots/screenshot_20260512_083257.png

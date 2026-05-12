@@ -1,0 +1,6 @@
+2026-05-12 08:33:55  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:33:57  INFO  test_search_with_keywords  306  搜索 '   ' 后的URL: https://news.qq.com/search?query=%20%20%20&page=1
+2026-05-12 08:34:00  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:34:02  INFO  test_search_with_keywords  306  搜索 '   ' 后的URL: https://news.qq.com/search?query=%20%20%20&page=1
+2026-05-12 08:34:06  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 08:34:09  INFO  test_search_with_keywords  306  搜索 '   ' 后的URL: https://news.qq.com/search?query=%20%20%20&page=1
