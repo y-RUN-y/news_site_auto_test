@@ -1,0 +1,7 @@
+2026-05-12 01:35:31  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:35:40  INFO  test_card_title_and_description  60  卡片 1 - 标题: 长图回忆丨百年世乒赛：国乒团体收获48冠，是什么概念？
+2026-05-12 01:35:40  INFO  test_card_title_and_description  60  卡片 2 - 标题: 外交部介绍特朗普访华具体安排和中方期待
+2026-05-12 01:35:40  INFO  test_card_title_and_description  60  卡片 3 - 标题: 新闻还能这样听？腾讯新闻首发AI互动电台来了！
+2026-05-12 01:35:40  INFO  test_card_title_and_description  60  卡片 4 - 标题: 全民防灾能力测试！生死选择，你做对了吗？
+2026-05-12 01:35:40  INFO  test_card_title_and_description  60  卡片 5 - 标题: 腾讯新闻出品《我有个医生朋友 | 科学减重，“肝”掉脂肪》 持续热播！
+2026-05-12 01:35:41  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_013540.png

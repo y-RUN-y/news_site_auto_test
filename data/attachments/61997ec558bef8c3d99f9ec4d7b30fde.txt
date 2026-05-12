@@ -1,0 +1,3 @@
+2026-05-12 01:35:58  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:36:10  INFO  test_keyword_highlighted  85  前5个卡片中 0 个关键词被高亮
+2026-05-12 01:36:11  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260512_013610.png

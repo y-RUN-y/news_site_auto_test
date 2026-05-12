@@ -1,0 +1,4 @@
+2026-05-12 01:34:41  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:34:45  INFO  test_search_with_keywords  298  搜索 '世界杯' 后的URL: https://news.qq.com/search?query=%E4%B8%96%E7%95%8C%E6%9D%AF&page=1
+2026-05-12 01:34:46  INFO  test_search_with_keywords  310  搜索结果页标题: 世界杯-搜索
+2026-05-12 01:34:48  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_013446.png

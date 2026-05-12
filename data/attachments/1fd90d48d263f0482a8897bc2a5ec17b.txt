@@ -1,7 +1,0 @@
-2026-05-12 01:11:52  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:11:59  INFO  test_card_title_and_description  60  卡片 1 - 标题: 国家报：世界杯门票及交通费暴涨，已引发美国社会各界不满
-2026-05-12 01:11:59  INFO  test_card_title_and_description  60  卡片 2 - 标题: 世界杯还没开踢，中国球迷先“退票”了
-2026-05-12 01:11:59  INFO  test_card_title_and_description  60  卡片 3 - 标题: 美加墨世界杯倒计时一个月，墨西哥城静待揭幕战
-2026-05-12 01:11:59  INFO  test_card_title_and_description  60  卡片 4 - 标题: “专坑中国”，世界杯这回撞墙了
-2026-05-12 01:11:59  INFO  test_card_title_and_description  60  卡片 5 - 标题: 2届世界杯国际足联要价44亿，央视仍不满 媒体人：赚多赚少的问题
-2026-05-12 01:11:59  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011159.png

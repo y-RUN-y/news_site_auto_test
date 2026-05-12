@@ -1,4 +1,0 @@
-2026-05-12 01:10:51  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-12 01:10:55  INFO  test_search_with_keywords  298  搜索 'Apple' 后的URL: https://news.qq.com/search?query=Apple&page=1
-2026-05-12 01:10:55  INFO  test_search_with_keywords  310  搜索结果页标题: Apple-搜索
-2026-05-12 01:10:57  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_011056.png
