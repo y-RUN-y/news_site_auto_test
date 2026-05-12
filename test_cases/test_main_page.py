@@ -259,7 +259,7 @@ class TestSearch:
         with allure.step("输入搜索词"):
             input_box = main_page.locator(main_page.INPUT_BOX)
             input_box.fill(keyword)
-            main_page.wait_for_timeout(1000)
+            main_page.wait_for_timeout(3000)
         with allure.step("验证搜索提示是否出现"):
             suggestions = main_page.locator(main_page.SEARCH_SUG_LIST)
             suggestion_count = suggestions.count()
