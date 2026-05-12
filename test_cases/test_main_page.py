@@ -115,42 +115,50 @@ class TestNavBar:
     @allure.title("测试导航按钮点击效果")
     @allure.description("验证点击导航项后能在新标签页正确打开对应链接")
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.completed
+    @pytest.mark.inprogress
     def test_nav_item_click(self, context, page):
         main_page = MainPage(page)
         main_page.go_main_page()
-        newpage = None
         items = main_page.locator(main_page.NAV_ITEM).locator(main_page.NAV_LINK).all()
+
         for item in items:
             href = item.get_attribute("href")
-            if href is not None:
-                try:
-                    with allure.step(f"点击导航项 '{item.text_content()}'"):
+            if href is None:
+                continue
+
+            new_page = None
+            try:
+                with allure.step(f"点击导航项 '{item.text_content()}'"):
+                    # 注册新页面监听，然后点击
+                    with context.expect_page() as new_page_info:
                         item.click()
-                        main_page.wait_for_timeout(3000)
-                    with allure.step("验证新页面打开"):
-                        assert len(context.pages) == 2
-                        newpage = BasePage(context.pages[-1])
-                        logging.debug(
-                            "page: title: %s, link: %s",
-                            newpage.get_title(),
-                            newpage.get_url(),
-                        )
-                        assert newpage.get_url() == href
-                        # 特殊规则
-                        if item.text_content() == "王者世界":
-                            assert "王者荣耀世界" in newpage.get_title()
-                        else:
-                            assert item.text_content() in newpage.get_title()
-                        allure.attach.file(
-                            newpage.take_screenshot(),
-                            attachment_type=allure.attachment_type.PNG,
-                        )
-                except Exception as e:
-                    logging.warning("error: %s", e)
-                    newpage.take_screenshot(name="error_screenshot")
-                finally:
-                    newpage.close()
+                    new_page = BasePage(new_page_info.value)
+                    # 等待页面加载完成（可根据需要调整）
+                    new_page.wait_for_load_state("networkidle")
+
+                with allure.step("验证新页面打开"):
+                    # 在新页面上进行断言
+                    assert (
+                        new_page.get_url() == href
+                    ), f"期望 {href}，实际 {new_page.get_url()}"
+                    if item.text_content() == "王者世界":
+                        assert "王者荣耀世界" in new_page.get_title()
+                    else:
+                        assert item.text_content() in new_page.get_title()
+
+                    allure.attach.file(
+                        new_page.take_screenshot(),
+                        attachment_type=allure.attachment_type.PNG,
+                    )
+            except Exception as e:
+                logging.warning("error: %s", e)
+                # 仅在 new_page 存在时截图
+                if new_page:
+                    new_page.take_screenshot(name="error_screenshot")
+                raise  # 让测试失败，或根据情况决定是否继续
+            finally:
+                if new_page:
+                    new_page.close()
 
     @allure.title("测试更多导航按钮弹出面板弹出效果")
     @allure.description("验证更多菜单hover时下拉面板显示，鼠标移开后隐藏")
