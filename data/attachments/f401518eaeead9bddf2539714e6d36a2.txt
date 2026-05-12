@@ -1,0 +1,37 @@
+2026-05-12 00:58:15  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 00:58:21  DEBUG  test_nav_item_click  134  page: title: 腾讯网-要闻, link: https://news.qq.com/
+2026-05-12 00:58:23  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005821.png
+2026-05-12 00:58:26  DEBUG  test_nav_item_click  134  page: title: 腾讯网-科技, link: https://news.qq.com/ch/tech/
+2026-05-12 00:58:29  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005827.png
+2026-05-12 00:58:33  DEBUG  test_nav_item_click  134  page: title: 腾讯网-财经, link: https://news.qq.com/ch/finance/
+2026-05-12 00:58:35  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005833.png
+2026-05-12 00:58:39  DEBUG  test_nav_item_click  134  page: title: 腾讯网-国际, link: https://news.qq.com/ch/world/
+2026-05-12 00:58:40  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005839.png
+2026-05-12 00:58:43  DEBUG  test_nav_item_click  134  page: title: 腾讯网-军事, link: https://news.qq.com/ch/milite/
+2026-05-12 00:58:44  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005844.png
+2026-05-12 00:58:48  DEBUG  test_nav_item_click  134  page: title: 热问频道-腾讯网, link: https://news.qq.com/ch/qa
+2026-05-12 00:58:48  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005848.png
+2026-05-12 00:58:51  DEBUG  test_nav_item_click  134  page: title: 腾讯网-教育, link: https://news.qq.com/ch/edu/
+2026-05-12 00:58:54  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005852.png
+2026-05-12 00:58:57  DEBUG  test_nav_item_click  134  page: title: 腾讯网-娱乐, link: https://news.qq.com/ch/ent/
+2026-05-12 00:58:59  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005857.png
+2026-05-12 00:59:03  DEBUG  test_nav_item_click  134  page: title: 电视剧 腾讯视频-中国领先的在线视频媒体平台,海量高清视频在线观看, link: https://v.qq.com/channel/tv/?ptag=qqnews
+2026-05-12 00:59:09  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005904.png
+2026-05-12 00:59:12  DEBUG  test_nav_item_click  134  page: title: 腾讯体育 - 看NBA足球网球赛车NFL, link: https://sports.qq.com/?from=qqnews
+2026-05-12 00:59:14  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005913.png
+2026-05-12 00:59:18  DEBUG  test_nav_item_click  134  page: title: NBA频道｜腾讯体育 - 看NBA足球网球赛车NFL, link: https://sports.qq.com/nba/index.shtml?from=qqnews
+2026-05-12 00:59:18  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005918.png
+2026-05-12 00:59:22  DEBUG  test_nav_item_click  134  page: title: 腾讯网-汽车, link: https://news.qq.com/ch/auto/
+2026-05-12 00:59:24  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005923.png
+2026-05-12 00:59:28  DEBUG  test_nav_item_click  134  page: title: 腾讯网-房产, link: https://news.qq.com/ch/house/
+2026-05-12 00:59:29  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005928.png
+2026-05-12 00:59:32  DEBUG  test_nav_item_click  134  page: title: 腾讯网-游戏, link: https://news.qq.com/ch/games/
+2026-05-12 00:59:32  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005932.png
+2026-05-12 00:59:36  DEBUG  test_nav_item_click  134  page: title: 腾讯网-健康, link: https://news.qq.com/ch/health/
+2026-05-12 00:59:36  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005936.png
+2026-05-12 00:59:40  DEBUG  test_nav_item_click  134  page: title: 腾讯网-科学, link: https://news.qq.com/ch/kepu/
+2026-05-12 00:59:40  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005940.png
+2026-05-12 00:59:44  DEBUG  test_nav_item_click  134  page: title: 王者荣耀世界首发上线, link: https://h5.ssp.qq.com/lps/production/material/202604/d15e16c3cfcb74cef608ae0dc1a12657.html?sourceType=2&channelIndex=2&oid=82026041034&hidecode=1&isPCPage=1
+2026-05-12 00:59:44  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005944.png
+2026-05-12 00:59:47  DEBUG  test_nav_item_click  134  page: title: 游戏中心-腾讯网, link: https://news.qq.com/ch/game_center
+2026-05-12 00:59:48  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_005947.png

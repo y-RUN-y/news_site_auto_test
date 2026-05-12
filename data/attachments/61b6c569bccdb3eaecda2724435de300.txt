@@ -1,0 +1,2 @@
+2026-05-12 00:59:52  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 00:59:53  INFO  test_search_suggestions_appear  266  搜索提示项数量: 0

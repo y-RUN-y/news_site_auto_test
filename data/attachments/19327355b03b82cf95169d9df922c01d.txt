@@ -1,0 +1,7 @@
+2026-05-12 01:02:21  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:02:26  INFO  test_card_title_and_description  60  卡片 1 - 标题: 广州：重点支持AI技术在智能无人系统、具身智能、细胞与基因、前沿新材料等领域的应用与融合发展
+2026-05-12 01:02:26  INFO  test_card_title_and_description  60  卡片 2 - 标题: 全球产业链加速重构，AI技术如何影响中欧产业重构与合作？
+2026-05-12 01:02:26  INFO  test_card_title_and_description  60  卡片 3 - 标题: 不装了摊牌了！索尼：所有游戏全部启用AI技术
+2026-05-12 01:02:26  INFO  test_card_title_and_description  60  卡片 4 - 标题: AI技术复现湘南红色故事 红色文化育人更走心
+2026-05-12 01:02:26  INFO  test_card_title_and_description  60  卡片 5 - 标题: 再登国际肿瘤学顶刊：这项AI技术，真的能救命
+2026-05-12 01:02:26  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_010226.png

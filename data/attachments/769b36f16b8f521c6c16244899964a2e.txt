@@ -1,4 +1,0 @@
-2026-05-11 15:09:23  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 15:09:24  INFO  test_search_with_keywords  298  搜索 '<script>alert('xss')' 后的URL: https://waf.tencent.com/501page.html?u=https://news.qq.com&id=ff3a4eb5268dcbb8676a1166b9f783dc-1776311493126810-461-140067259565824-85406776329031560&st=01&v=aHR0cHMlM0ElMkYlMkZuZXdzLnFxLmNvbSUyRnNlYXJjaCUzRnF1ZXJ5JTNEJTI1M0NzY3JpcHQlMjUzRWFsZXJ0KCUyNTI3eHNzJTI1MjcpJTI1M0MlMjUyRnNjcmlwdCUyNTNFJTI2cGFnZSUzRDE=
-2026-05-11 15:09:24  INFO  test_search_with_keywords  310  搜索结果页标题: 
-2026-05-11 15:09:24  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/error_screenshot_20260511_150924.png

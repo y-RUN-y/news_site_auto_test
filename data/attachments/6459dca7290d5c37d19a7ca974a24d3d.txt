@@ -1,3 +1,0 @@
-2026-05-11 15:11:07  INFO  open_url  40  跳转到：https://www.qq.com
-2026-05-11 15:11:14  INFO  test_click_card_opens_new_tab  114  新页面URL: https://news.qq.com/rain/a/20260511A08RF200, 标题: 世界杯还没开踢，中国球迷先“退票”了_腾讯新闻
-2026-05-11 15:11:15  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260511_151114.png

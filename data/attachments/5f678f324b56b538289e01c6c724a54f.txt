@@ -1,0 +1,5 @@
+2026-05-12 01:01:42  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:01:44  INFO  test_search_suggestions_appear  266  搜索提示项数量: 0
+2026-05-12 01:02:18  INFO  open_url  40  跳转到：https://www.qq.com
+2026-05-12 01:02:19  INFO  test_search_suggestions_appear  266  搜索提示项数量: 0
+2026-05-12 01:02:20  INFO  take_screenshot  112  已截图：/home/runner/work/tencent_news_web_test/tencent_news_web_test/screenshots/screenshot_20260512_010219.png
